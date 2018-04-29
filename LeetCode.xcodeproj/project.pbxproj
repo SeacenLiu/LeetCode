@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		14773BD120934638006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BD020934638006242C6 /* main.cpp */; };
 		14773BDE20934647006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BDD20934647006242C6 /* main.cpp */; };
+		14773BE920934BFF006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BE820934BFF006242C6 /* main.cpp */; };
+		14E76E822095FEE50095BE75 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E76E812095FEE50095BE75 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		14773BE420934BFF006242C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		14E76E7D2095FEE50095BE75 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +57,10 @@
 		14773BD020934638006242C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14773BDB20934647006242C6 /* 两数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "两数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14773BDD20934647006242C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14773BE620934BFF006242C6 /* 两数相加 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "两数相加"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14773BE820934BFF006242C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14E76E7F2095FEE50095BE75 /* 无重复字符的最长子串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "无重复字符的最长子串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E76E812095FEE50095BE75 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14773BE320934BFF006242C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E76E7C2095FEE50095BE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +100,8 @@
 			children = (
 				14773BCF20934638006242C6 /* LeetCode */,
 				14773BDC20934647006242C6 /* 两数之和 */,
+				14773BE720934BFF006242C6 /* 两数相加 */,
+				14E76E802095FEE50095BE75 /* 无重复字符的最长子串 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +111,8 @@
 			children = (
 				14773BCD20934638006242C6 /* LeetCode */,
 				14773BDB20934647006242C6 /* 两数之和 */,
+				14773BE620934BFF006242C6 /* 两数相加 */,
+				14E76E7F2095FEE50095BE75 /* 无重复字符的最长子串 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +131,22 @@
 				14773BDD20934647006242C6 /* main.cpp */,
 			);
 			path = "两数之和";
+			sourceTree = "<group>";
+		};
+		14773BE720934BFF006242C6 /* 两数相加 */ = {
+			isa = PBXGroup;
+			children = (
+				14773BE820934BFF006242C6 /* main.cpp */,
+			);
+			path = "两数相加";
+			sourceTree = "<group>";
+		};
+		14E76E802095FEE50095BE75 /* 无重复字符的最长子串 */ = {
+			isa = PBXGroup;
+			children = (
+				14E76E812095FEE50095BE75 /* main.cpp */,
+			);
+			path = "无重复字符的最长子串";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +186,40 @@
 			productReference = 14773BDB20934647006242C6 /* 两数之和 */;
 			productType = "com.apple.product-type.tool";
 		};
+		14773BE520934BFF006242C6 /* 两数相加 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14773BEC20934BFF006242C6 /* Build configuration list for PBXNativeTarget "两数相加" */;
+			buildPhases = (
+				14773BE220934BFF006242C6 /* Sources */,
+				14773BE320934BFF006242C6 /* Frameworks */,
+				14773BE420934BFF006242C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "两数相加";
+			productName = "两数相加";
+			productReference = 14773BE620934BFF006242C6 /* 两数相加 */;
+			productType = "com.apple.product-type.tool";
+		};
+		14E76E7E2095FEE50095BE75 /* 无重复字符的最长子串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E76E852095FEE50095BE75 /* Build configuration list for PBXNativeTarget "无重复字符的最长子串" */;
+			buildPhases = (
+				14E76E7B2095FEE50095BE75 /* Sources */,
+				14E76E7C2095FEE50095BE75 /* Frameworks */,
+				14E76E7D2095FEE50095BE75 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "无重复字符的最长子串";
+			productName = "无重复字符的最长子串";
+			productReference = 14E76E7F2095FEE50095BE75 /* 无重复字符的最长子串 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -142,6 +234,14 @@
 						ProvisioningStyle = Automatic;
 					};
 					14773BDA20934647006242C6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					14773BE520934BFF006242C6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					14E76E7E2095FEE50095BE75 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -161,6 +261,8 @@
 			targets = (
 				14773BCC20934638006242C6 /* LeetCode */,
 				14773BDA20934647006242C6 /* 两数之和 */,
+				14773BE520934BFF006242C6 /* 两数相加 */,
+				14E76E7E2095FEE50095BE75 /* 无重复字符的最长子串 */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +281,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				14773BDE20934647006242C6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14773BE220934BFF006242C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14773BE920934BFF006242C6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E76E7B2095FEE50095BE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E76E822095FEE50095BE75 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +438,38 @@
 			};
 			name = Release;
 		};
+		14773BEA20934BFF006242C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14773BEB20934BFF006242C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14E76E832095FEE50095BE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14E76E842095FEE50095BE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,6 +496,24 @@
 			buildConfigurations = (
 				14773BE020934647006242C6 /* Debug */,
 				14773BE120934647006242C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14773BEC20934BFF006242C6 /* Build configuration list for PBXNativeTarget "两数相加" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14773BEA20934BFF006242C6 /* Debug */,
+				14773BEB20934BFF006242C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E76E852095FEE50095BE75 /* Build configuration list for PBXNativeTarget "无重复字符的最长子串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E76E832095FEE50095BE75 /* Debug */,
+				14E76E842095FEE50095BE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
