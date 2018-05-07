@@ -57,7 +57,7 @@ TreeNode *creat(TreeNode *bt) {
 }
 
 /**
- * 1. 没有孩子节点
+ * 广度遍历 + 先走右孩子 + 最后一个遍历的 = 答案
  */
 
 class Solution {
