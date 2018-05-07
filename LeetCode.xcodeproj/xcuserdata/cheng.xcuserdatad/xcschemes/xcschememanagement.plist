@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>找树左下角的值.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>无重复字符的最长子串.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
