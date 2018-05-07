@@ -60,38 +60,68 @@ TreeNode *creat(TreeNode *bt) {
  * 广度遍历 + 先走右孩子 + 最后一个遍历的 = 答案
  */
 
+/**
+ * 二叉树的层序遍历思路：
+ * 使用队列的特性
+ * 先进先出
+ * 遍历左右子树
+ */
+
+//class Solution {
+//private:
+//    void preOrder(TreeNode *bt) {
+//        if (!bt) return;
+//        else {
+//            preOrder(bt->left);
+//            preOrder(bt->right);
+//            cout << bt->val << endl;
+//        }
+//    }
+//
+//    int leverOrder(TreeNode *root) {
+//        int front, rear;
+//        int val = root->val;
+//        TreeNode *q[10000];
+//        TreeNode *bt;
+//        front = rear = 1;
+//        if (root == NULL) return val;
+//        q[++rear] = root;
+//        while (front != rear) {
+//            bt = q[++front];
+//            val = bt->val;
+//            if (bt -> right != NULL)
+//                q[++rear] = bt -> right;
+//            if (bt -> left != NULL)
+//                q[++rear] = bt -> left;
+//        }
+//        return val;
+//    }
+//public:
+//    int findBottomLeftValue(TreeNode* root) {
+//        return leverOrder(root);
+//    }
+//};
+
+/// LeetCode 上的其他答案
 class Solution {
-private:
-    void preOrder(TreeNode *bt) {
-        if (!bt) return;
-        else {
-            preOrder(bt->left);
-            preOrder(bt->right);
-            cout << bt->val << endl;
-        }
-    }
-    
-    int leverOrder(TreeNode *root) {
-        int front, rear;
-        int val = root->val;
-        TreeNode *q[10000];
-        TreeNode *bt;
-        front = rear = 1;
-        if (root == NULL) return val;
-        q[++rear] = root;
-        while (front != rear) {
-            bt = q[++front];
-            val = bt->val;
-            if (bt -> right != NULL)
-                q[++rear] = bt -> right;
-            if (bt -> left != NULL)
-                q[++rear] = bt -> left;
-        }
-        return val;
-    }
 public:
     int findBottomLeftValue(TreeNode* root) {
-        return leverOrder(root);
+        TreeNode* res=NULL;
+        int max_dep=0;
+        find_left(root,1,res,max_dep);
+        return res->val;
+    }
+private:
+    void find_left(TreeNode* root,int depth,TreeNode* &res,int& max_dep){
+        if(root==NULL){
+            return;
+        }
+        if(depth>max_dep){
+            res=root;
+            max_dep=depth;
+        }
+        find_left(root->left,depth+1,res,max_dep);
+        find_left(root->right,depth+1,res,max_dep);
     }
 };
 
