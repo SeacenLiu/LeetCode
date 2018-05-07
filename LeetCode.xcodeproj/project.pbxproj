@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		14773BD120934638006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BD020934638006242C6 /* main.cpp */; };
 		14773BDE20934647006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BDD20934647006242C6 /* main.cpp */; };
 		14773BE920934BFF006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BE820934BFF006242C6 /* main.cpp */; };
@@ -14,6 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1421E388209FFAF900A4C208 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		14773BCB20934638006242C6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1421E38A209FFAF900A4C208 /* 用队列实现栈 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "用队列实现栈"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1421E38C209FFAF900A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14773BCD20934638006242C6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		14773BD020934638006242C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14773BDB20934647006242C6 /* 两数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "两数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +76,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1421E387209FFAF900A4C208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14773BCA20934638006242C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1421E38B209FFAF900A4C208 /* 用队列实现栈 */ = {
+			isa = PBXGroup;
+			children = (
+				1421E38C209FFAF900A4C208 /* main.cpp */,
+			);
+			path = "用队列实现栈";
+			sourceTree = "<group>";
+		};
 		14773BC420934638006242C6 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +129,7 @@
 				14773BDC20934647006242C6 /* 两数之和 */,
 				14773BE720934BFF006242C6 /* 两数相加 */,
 				14E76E802095FEE50095BE75 /* 无重复字符的最长子串 */,
+				1421E38B209FFAF900A4C208 /* 用队列实现栈 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +141,7 @@
 				14773BDB20934647006242C6 /* 两数之和 */,
 				14773BE620934BFF006242C6 /* 两数相加 */,
 				14E76E7F2095FEE50095BE75 /* 无重复字符的最长子串 */,
+				1421E38A209FFAF900A4C208 /* 用队列实现栈 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +181,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1421E389209FFAF900A4C208 /* 用队列实现栈 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1421E390209FFAF900A4C208 /* Build configuration list for PBXNativeTarget "用队列实现栈" */;
+			buildPhases = (
+				1421E386209FFAF900A4C208 /* Sources */,
+				1421E387209FFAF900A4C208 /* Frameworks */,
+				1421E388209FFAF900A4C208 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "用队列实现栈";
+			productName = "用队列实现栈";
+			productReference = 1421E38A209FFAF900A4C208 /* 用队列实现栈 */;
+			productType = "com.apple.product-type.tool";
+		};
 		14773BCC20934638006242C6 /* LeetCode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14773BD420934638006242C6 /* Build configuration list for PBXNativeTarget "LeetCode" */;
@@ -229,6 +275,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "成";
 				TargetAttributes = {
+					1421E389209FFAF900A4C208 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					14773BCC20934638006242C6 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -263,11 +313,20 @@
 				14773BDA20934647006242C6 /* 两数之和 */,
 				14773BE520934BFF006242C6 /* 两数相加 */,
 				14E76E7E2095FEE50095BE75 /* 无重复字符的最长子串 */,
+				1421E389209FFAF900A4C208 /* 用队列实现栈 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1421E386209FFAF900A4C208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1421E38D209FFAF900A4C208 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14773BC920934638006242C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +362,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1421E38E209FFAF900A4C208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1421E38F209FFAF900A4C208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		14773BD220934638006242C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -473,6 +548,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1421E390209FFAF900A4C208 /* Build configuration list for PBXNativeTarget "用队列实现栈" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1421E38E209FFAF900A4C208 /* Debug */,
+				1421E38F209FFAF900A4C208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		14773BC820934638006242C6 /* Build configuration list for PBXProject "LeetCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
