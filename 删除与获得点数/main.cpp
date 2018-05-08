@@ -49,6 +49,7 @@
 #include <map>
 using namespace std;
 
+/** 我提交的
 class Solution {
 public:
     int deleteAndEarn(vector<int>& nums) {
@@ -77,6 +78,73 @@ public:
             p = i;
         }
         return max(max1, max2);
+    }
+};
+*/
+
+/** 8ms的
+class Solution {
+public:
+    int deleteAndEarn(vector<int>& nums) {
+        if(nums.empty())
+            return 0;
+        map<int, int> numMap;
+        for (auto num : nums)
+        {
+            numMap[num]++;
+        }
+        vector<int> numsUnique;
+        for (auto iter = numMap.begin(); iter != numMap.end(); ++iter)
+        {
+            numsUnique.push_back(iter->first);
+        }
+        vector<int> maxEarnOn(numMap.size(), 0);
+        maxEarnOn[0] = numsUnique[0] * numMap[numsUnique[0]];
+        for (int i = 1; i < numsUnique.size(); i++)
+        {
+            if (numsUnique[i] == numsUnique[i - 1] + 1)
+            {
+                if (i - 2 >= 0)
+                {
+                    maxEarnOn[i] = max(maxEarnOn[i - 2] + numsUnique[i] * numMap[numsUnique[i]], maxEarnOn[i - 1]);
+                }
+                else
+                {
+                    maxEarnOn[i] = max(numsUnique[i] * numMap[numsUnique[i]], maxEarnOn[i - 1]);
+                }
+            }
+            else
+            {
+                maxEarnOn[i] = maxEarnOn[i - 1] + numsUnique[i] * numMap[numsUnique[i]];
+            }
+        }
+        return maxEarnOn.back();
+    }
+};
+ */
+
+/** 4ms的
+ */
+class Solution {
+public:
+    int deleteAndEarn(vector<int>& nums) {
+        if(nums.empty())
+            return 0;
+        int maxNum = *max_element(nums.begin(), nums.end());
+        vector<int> houses(maxNum + 1,0);
+        for (int num : nums) {
+            houses[num] += num;
+        }
+        
+        long n=houses.size();
+        vector<int> dp(n+1, 0);
+        dp[0] = 0;
+        dp[1] = houses[0];
+        for (int i = 2; i <= n; i++) {
+            dp[i] = max(dp[i - 2] + houses[i-1], dp[i - 1]);
+        }
+        
+        return dp[n];
     }
 };
 
