@@ -21,13 +21,7 @@
  */
 
 /**
- * 二叉树的每一层的最后一个结点（从左到右）
- * 既然二叉树分层次，就需要利用层次遍历遍历二叉树
- * 层次遍历二叉树的时候，最重要的内容是知道当前遍历的层哪个是最后一个结点
- * 设置变量记录当前层在遍历队列中剩下的结点书——thisLevelRemaind，
-   和下一层一共有多少个结点数——nextLevelHas，这样的话每当对头出队，thisLevelRemaind--，
-   每当有新节点入队，nextLevelHas++
- * 最后，如果thisLevelRemaind为1时，则把该结点加入结果集合中
+ * 层次遍历 + 找到那个是这层的最后一个
  */
 
 #include <iostream>
@@ -56,6 +50,15 @@ TreeNode *creat(TreeNode *bt) {
 
 class Solution {
 public:
+    /**
+     * 二叉树的每一层的最后一个结点（从左到右）
+     * 既然二叉树分层次，就需要利用层次遍历遍历二叉树
+     * 层次遍历二叉树的时候，最重要的内容是知道当前遍历的层哪个是最后一个结点
+     * 设置变量记录当前层在遍历队列中剩下的结点书——thisLevelRemaind，
+     和下一层一共有多少个结点数——nextLevelHas，这样的话每当对头出队，thisLevelRemaind--，
+     每当有新节点入队，nextLevelHas++
+     * 最后，如果thisLevelRemaind为1时，则把该结点加入结果集合中
+     */
     vector<int> rightSideView(TreeNode* root) {
         vector<int> ret = vector<int>();
         if (root == NULL) {
