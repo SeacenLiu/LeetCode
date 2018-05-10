@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>从中序与后序遍历序列构造二叉树.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>删除与获得点数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
