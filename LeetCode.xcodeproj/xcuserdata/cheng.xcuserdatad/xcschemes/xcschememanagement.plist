@@ -22,12 +22,12 @@
 		<key>二叉树的右视图.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>9</integer>
 		</dict>
 		<key>从中序与后序遍历序列构造二叉树.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>8</integer>
 		</dict>
 		<key>删除与获得点数.xcscheme</key>
 		<dict>
@@ -53,6 +53,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>翻转字符串里的单词.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 </dict>
