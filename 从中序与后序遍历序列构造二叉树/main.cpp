@@ -90,22 +90,3 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-//int rootVal = postorder[postorder.end()-postorder.begin()-1];
-//int i = 0;
-//for (i = 0; i < inorder.end()-inorder.begin(); i++) {
-//    if (inorder[i] == rootVal) {
-//        break;
-//    }
-//}
-//vector<int> left = vector<int>();
-//for (int j = 0; j < i; j++) {
-//    left.push_back(inorder[j]);
-//}
-//vector<int> right = vector<int>();
-//for (int j = i+1; j < inorder.end()-inorder.begin(); j++) {
-//    right.push_back(inorder[j]);
-//}
-//coutVector(left);
-//cout << "----" << endl;
-//coutVector(right);
-
