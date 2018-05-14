@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>不同的二叉搜索树 II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>两数之和.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,17 +27,17 @@
 		<key>二叉树的右视图.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>7</integer>
 		</dict>
 		<key>从中序与后序遍历序列构造二叉树.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>9</integer>
 		</dict>
 		<key>删除与获得点数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>8</integer>
 		</dict>
 		<key>填充同一层的兄弟节点 II.xcscheme</key>
 		<dict>
@@ -42,7 +47,7 @@
 		<key>找树左下角的值.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 		<key>无重复字符的最长子串.xcscheme</key>
 		<dict>
