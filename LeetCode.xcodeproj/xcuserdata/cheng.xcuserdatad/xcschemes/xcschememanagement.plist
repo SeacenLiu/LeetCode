@@ -12,7 +12,7 @@
 		<key>不同的二叉搜索树 II.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>9</integer>
 		</dict>
 		<key>两数之和.xcscheme</key>
 		<dict>
@@ -32,12 +32,17 @@
 		<key>从中序与后序遍历序列构造二叉树.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>删除与获得点数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
+		</dict>
+		<key>在二叉树中增加一行.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>填充同一层的兄弟节点 II.xcscheme</key>
 		<dict>
@@ -62,7 +67,7 @@
 		<key>翻转字符串里的单词.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 	</dict>
 </dict>
