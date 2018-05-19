@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1418C42020B0021B006C1AF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1418C41F20B0021B006C1AF7 /* main.cpp */; };
 		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
 		14773BD120934638006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BD020934638006242C6 /* main.cpp */; };
@@ -23,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1418C41B20B0021B006C1AF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		1421E388209FFAF900A4C208 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +153,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1418C41D20B0021B006C1AF7 /* 反转链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "反转链表"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1418C41F20B0021B006C1AF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1421E38A209FFAF900A4C208 /* 用队列实现栈 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "用队列实现栈"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1421E38C209FFAF900A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1421E39520A0021C00A4C208 /* 填充同一层的兄弟节点 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "填充同一层的兄弟节点 II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +184,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1418C41A20B0021B006C1AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1421E387209FFAF900A4C208 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +285,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1418C41E20B0021B006C1AF7 /* 反转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				1418C41F20B0021B006C1AF7 /* main.cpp */,
+			);
+			path = "反转链表";
+			sourceTree = "<group>";
+		};
 		1421E38B209FFAF900A4C208 /* 用队列实现栈 */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +325,7 @@
 				14DC853F20A3F42100F651BD /* 翻转字符串里的单词 */,
 				1488244720A8705B00BD4766 /* 不同的二叉搜索树 II */,
 				1488245220A9BDCF00BD4766 /* 在二叉树中增加一行 */,
+				1418C41E20B0021B006C1AF7 /* 反转链表 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -318,6 +346,7 @@
 				14DC853E20A3F42100F651BD /* 翻转字符串里的单词 */,
 				1488244620A8705B00BD4766 /* 不同的二叉搜索树 II */,
 				1488245120A9BDCF00BD4766 /* 在二叉树中增加一行 */,
+				1418C41D20B0021B006C1AF7 /* 反转链表 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -413,6 +442,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1418C41C20B0021B006C1AF7 /* 反转链表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1418C42320B0021B006C1AF7 /* Build configuration list for PBXNativeTarget "反转链表" */;
+			buildPhases = (
+				1418C41920B0021B006C1AF7 /* Sources */,
+				1418C41A20B0021B006C1AF7 /* Frameworks */,
+				1418C41B20B0021B006C1AF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "反转链表";
+			productName = "反转链表";
+			productReference = 1418C41D20B0021B006C1AF7 /* 反转链表 */;
+			productType = "com.apple.product-type.tool";
+		};
 		1421E389209FFAF900A4C208 /* 用队列实现栈 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1421E390209FFAF900A4C208 /* Build configuration list for PBXNativeTarget "用队列实现栈" */;
@@ -643,6 +689,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "成";
 				TargetAttributes = {
+					1418C41C20B0021B006C1AF7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					1421E389209FFAF900A4C208 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -722,11 +772,20 @@
 				14DC853D20A3F42100F651BD /* 翻转字符串里的单词 */,
 				1488244520A8705B00BD4766 /* 不同的二叉搜索树 II */,
 				1488245020A9BDCF00BD4766 /* 在二叉树中增加一行 */,
+				1418C41C20B0021B006C1AF7 /* 反转链表 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1418C41920B0021B006C1AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1418C42020B0021B006C1AF7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1421E386209FFAF900A4C208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -834,6 +893,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1418C42120B0021B006C1AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1418C42220B0021B006C1AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		1421E38E209FFAF900A4C208 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1148,6 +1223,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1418C42320B0021B006C1AF7 /* Build configuration list for PBXNativeTarget "反转链表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1418C42120B0021B006C1AF7 /* Debug */,
+				1418C42220B0021B006C1AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1421E390209FFAF900A4C208 /* Build configuration list for PBXNativeTarget "用队列实现栈" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
