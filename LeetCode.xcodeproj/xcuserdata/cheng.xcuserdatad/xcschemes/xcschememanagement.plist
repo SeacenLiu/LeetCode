@@ -42,12 +42,17 @@
 		<key>反转链表.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>12</integer>
+		</dict>
+		<key>回文数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 		<key>在二叉树中增加一行.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>13</integer>
 		</dict>
 		<key>填充同一层的兄弟节点 II.xcscheme</key>
 		<dict>
