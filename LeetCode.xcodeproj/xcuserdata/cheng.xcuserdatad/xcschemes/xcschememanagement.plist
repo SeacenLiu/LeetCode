@@ -59,6 +59,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>子集.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>找树左下角的值.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
