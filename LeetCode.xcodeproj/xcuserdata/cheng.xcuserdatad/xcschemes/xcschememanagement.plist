@@ -34,6 +34,16 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>全排列 II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>全排列.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>删除与获得点数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -47,7 +57,7 @@
 		<key>回文数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>15</integer>
 		</dict>
 		<key>在二叉树中增加一行.xcscheme</key>
 		<dict>
@@ -62,7 +72,7 @@
 		<key>子集.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>16</integer>
 		</dict>
 		<key>找树左下角的值.xcscheme</key>
 		<dict>
