@@ -89,6 +89,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>相对名次.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>翻转字符串里的单词.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
