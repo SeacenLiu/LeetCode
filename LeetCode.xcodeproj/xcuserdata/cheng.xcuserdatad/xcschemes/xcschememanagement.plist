@@ -12,7 +12,7 @@
 		<key>N皇后.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>17</integer>
 		</dict>
 		<key>不同的二叉搜索树 II.xcscheme</key>
 		<dict>
@@ -28,6 +28,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>二叉搜索树迭代器.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
 		</dict>
 		<key>二叉树的右视图.xcscheme</key>
 		<dict>
@@ -47,7 +52,7 @@
 		<key>全排列.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>18</integer>
 		</dict>
 		<key>删除与获得点数.xcscheme</key>
 		<dict>
@@ -97,7 +102,7 @@
 		<key>相对名次.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>19</integer>
 		</dict>
 		<key>翻转字符串里的单词.xcscheme</key>
 		<dict>
