@@ -32,7 +32,7 @@
 		<key>二叉搜索树迭代器.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>21</integer>
 		</dict>
 		<key>二叉树的右视图.xcscheme</key>
 		<dict>
@@ -104,10 +104,15 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>组合总和 II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>组合总和.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>20</integer>
 		</dict>
 		<key>翻转字符串里的单词.xcscheme</key>
 		<dict>
