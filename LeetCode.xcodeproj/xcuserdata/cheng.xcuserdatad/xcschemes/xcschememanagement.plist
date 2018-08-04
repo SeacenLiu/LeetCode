@@ -104,15 +104,20 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>第k个排列.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>组合.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>22</integer>
 		</dict>
 		<key>组合总和 II.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>23</integer>
 		</dict>
 		<key>组合总和.xcscheme</key>
 		<dict>
