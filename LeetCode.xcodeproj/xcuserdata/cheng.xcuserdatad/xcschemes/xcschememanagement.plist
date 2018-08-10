@@ -62,7 +62,7 @@
 		<key>前K个高频元素.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>24</integer>
 		</dict>
 		<key>反转链表.xcscheme</key>
 		<dict>
@@ -104,10 +104,20 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>根据字符出现频率排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>用队列实现栈.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>电话号码的字母组合.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
 		</dict>
 		<key>相对名次.xcscheme</key>
 		<dict>
@@ -117,12 +127,12 @@
 		<key>第k个排列.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>25</integer>
 		</dict>
 		<key>组合.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>23</integer>
 		</dict>
 		<key>组合总和 II.xcscheme</key>
 		<dict>
