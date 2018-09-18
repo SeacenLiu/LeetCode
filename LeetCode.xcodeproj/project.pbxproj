@@ -12,6 +12,7 @@
 		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
 		145969E92150B1AD00FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969E82150B1AD00FA01C8 /* main.cpp */; };
+		145969F42150EEC200FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969F32150EEC200FA01C8 /* main.cpp */; };
 		1473761F21154715004523D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1473761E21154715004523D7 /* main.cpp */; };
 		1473762A21154A72004523D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1473762921154A72004523D7 /* main.cpp */; };
 		14773BD120934638006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BD020934638006242C6 /* main.cpp */; };
@@ -78,6 +79,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		145969E42150B1AD00FA01C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		145969EF2150EEC200FA01C8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -333,6 +343,8 @@
 		1421E39720A0021C00A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		145969E62150B1AD00FA01C8 /* 正则表达式匹配 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "正则表达式匹配"; sourceTree = BUILT_PRODUCTS_DIR; };
 		145969E82150B1AD00FA01C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		145969F12150EEC200FA01C8 /* 删除链表的倒数第N个节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "删除链表的倒数第N个节点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		145969F32150EEC200FA01C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1473761C21154715004523D7 /* 组合 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "组合"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1473761E21154715004523D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1473762721154A72004523D7 /* 第k个排列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第k个排列"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -417,6 +429,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		145969E32150B1AD00FA01C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145969EE2150EEC200FA01C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -648,6 +667,14 @@
 			path = "正则表达式匹配";
 			sourceTree = "<group>";
 		};
+		145969F22150EEC200FA01C8 /* 删除链表的倒数第N个节点 */ = {
+			isa = PBXGroup;
+			children = (
+				145969F32150EEC200FA01C8 /* main.cpp */,
+			);
+			path = "删除链表的倒数第N个节点";
+			sourceTree = "<group>";
+		};
 		1473761D21154715004523D7 /* 组合 */ = {
 			isa = PBXGroup;
 			children = (
@@ -698,6 +725,7 @@
 				14916926211DBE6B005447B2 /* 电话号码的字母组合 */,
 				14916931211E8187005447B2 /* 括号生成 */,
 				145969E72150B1AD00FA01C8 /* 正则表达式匹配 */,
+				145969F22150EEC200FA01C8 /* 删除链表的倒数第N个节点 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -736,6 +764,7 @@
 				14916925211DBE6B005447B2 /* 电话号码的字母组合 */,
 				14916930211E8187005447B2 /* 括号生成 */,
 				145969E62150B1AD00FA01C8 /* 正则表达式匹配 */,
+				145969F12150EEC200FA01C8 /* 删除链表的倒数第N个节点 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1018,6 +1047,23 @@
 			name = "正则表达式匹配";
 			productName = "正则表达式匹配";
 			productReference = 145969E62150B1AD00FA01C8 /* 正则表达式匹配 */;
+			productType = "com.apple.product-type.tool";
+		};
+		145969F02150EEC200FA01C8 /* 删除链表的倒数第N个节点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145969F52150EEC200FA01C8 /* Build configuration list for PBXNativeTarget "删除链表的倒数第N个节点" */;
+			buildPhases = (
+				145969ED2150EEC200FA01C8 /* Sources */,
+				145969EE2150EEC200FA01C8 /* Frameworks */,
+				145969EF2150EEC200FA01C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "删除链表的倒数第N个节点";
+			productName = "删除链表的倒数第N个节点";
+			productReference = 145969F12150EEC200FA01C8 /* 删除链表的倒数第N个节点 */;
 			productType = "com.apple.product-type.tool";
 		};
 		1473761B21154715004523D7 /* 组合 */ = {
@@ -1491,6 +1537,10 @@
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
+					145969F02150EEC200FA01C8 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
 					1473761B21154715004523D7 = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -1640,6 +1690,7 @@
 				14916924211DBE6B005447B2 /* 电话号码的字母组合 */,
 				1491692F211E8187005447B2 /* 括号生成 */,
 				145969E52150B1AD00FA01C8 /* 正则表达式匹配 */,
+				145969F02150EEC200FA01C8 /* 删除链表的倒数第N个节点 */,
 			);
 		};
 /* End PBXProject section */
@@ -1682,6 +1733,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				145969E92150B1AD00FA01C8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145969ED2150EEC200FA01C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145969F42150EEC200FA01C8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1990,6 +2049,37 @@
 			name = Debug;
 		};
 		145969EB2150B1AD00FA01C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		145969F62150EEC200FA01C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		145969F72150EEC200FA01C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -2762,6 +2852,15 @@
 			buildConfigurations = (
 				145969EA2150B1AD00FA01C8 /* Debug */,
 				145969EB2150B1AD00FA01C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145969F52150EEC200FA01C8 /* Build configuration list for PBXNativeTarget "删除链表的倒数第N个节点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145969F62150EEC200FA01C8 /* Debug */,
+				145969F72150EEC200FA01C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

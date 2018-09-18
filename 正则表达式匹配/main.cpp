@@ -85,7 +85,7 @@ bool isMatch(char* s, char* p) {
 
 
 int main(int argc, const char * argv[]) {
-    char s[] = "a";
+    char s[] = "aa";
     char p[] = "a";
     std::cout << isMatch(s, p) << std::endl;;
     std::cout << "Hello, World!\n";

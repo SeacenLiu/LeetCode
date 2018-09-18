@@ -59,10 +59,15 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>删除链表的倒数第N个节点.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
 		<key>前K个高频元素.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>30</integer>
 		</dict>
 		<key>反转链表.xcscheme</key>
 		<dict>
@@ -97,12 +102,12 @@
 		<key>括号生成.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>25</integer>
 		</dict>
 		<key>旋转图像.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>26</integer>
 		</dict>
 		<key>无重复字符的最长子串.xcscheme</key>
 		<dict>
@@ -112,12 +117,12 @@
 		<key>根据字符出现频率排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>27</integer>
 		</dict>
 		<key>正则表达式匹配.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>29</integer>
 		</dict>
 		<key>用队列实现栈.xcscheme</key>
 		<dict>
@@ -127,7 +132,7 @@
 		<key>电话号码的字母组合.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>28</integer>
 		</dict>
 		<key>相对名次.xcscheme</key>
 		<dict>
