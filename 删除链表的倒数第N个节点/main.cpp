@@ -34,15 +34,15 @@ ListNode* removeNthFromEnd(struct ListNode* head, int n) {
     if (head == nullptr || n == 0)
         return nullptr;
     
-    ListNode *fp = head;
+    ListNode *
     ListNode *p = head;
     
     for(int i = 0; i < n - 1; ++i)
         if (fp->next != nullptr)
-            fp=fp->next;
+           fp=fp->next;
     else
         return nullptr;
-    
+
     while (fp->next != nullptr) {
         fp=fp->next;
         p=p->next;
