@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>合并K个排序链表.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
 		<key>合并两个有序链表.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
