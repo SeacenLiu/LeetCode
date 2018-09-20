@@ -124,6 +124,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>最小栈.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
 		<key>根据字符出现频率排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -133,6 +138,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>29</integer>
+		</dict>
+		<key>爬楼梯.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
 		</dict>
 		<key>用队列实现栈.xcscheme</key>
 		<dict>
