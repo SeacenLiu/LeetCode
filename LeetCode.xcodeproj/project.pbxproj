@@ -33,6 +33,7 @@
 		14916933211E8187005447B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14916932211E8187005447B2 /* main.cpp */; };
 		1491ADB3215E5DC100AA0D7F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1491ADB2215E5DC100AA0D7F /* main.cpp */; };
 		149CEB64210CCB9700690132 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149CEB63210CCB9700690132 /* main.cpp */; };
+		14A819BC21763FFB0009126E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A819BB21763FFB0009126E /* main.cpp */; };
 		14A9F035210FEA9500901702 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F034210FEA9500901702 /* main.cpp */; };
 		14A9F04221113B3400901702 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F04121113B3400901702 /* main.cpp */; };
 		14BDEDCE216E242500FCE2A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14BDEDCD216E242500FCE2A7 /* main.cpp */; };
@@ -285,6 +286,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		14A819B721763FFB0009126E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		14A9F030210FEA9500901702 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,6 +485,8 @@
 		1491ADB2215E5DC100AA0D7F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		149CEB61210CCB9700690132 /* 全排列 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "全排列 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149CEB63210CCB9700690132 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14A819B921763FFB0009126E /* 搜索二维矩阵 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "搜索二维矩阵 II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A819BB21763FFB0009126E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14A9F032210FEA9500901702 /* 全排列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "全排列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9F034210FEA9500901702 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14A9F03F21113B3400901702 /* 相对名次 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "相对名次"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -684,6 +696,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		149CEB5E210CCB9700690132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A819B621763FFB0009126E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -962,6 +981,7 @@
 				1430766321562D7000675A5E /* 字符串相乘 */,
 				1491ADB1215E5DC100AA0D7F /* 旋转链表 */,
 				14BDEDCC216E242500FCE2A7 /* 最长回文子串 */,
+				14A819BA21763FFB0009126E /* 搜索二维矩阵 II */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1010,6 +1030,7 @@
 				1430766221562D7000675A5E /* 字符串相乘 */,
 				1491ADB0215E5DC100AA0D7F /* 旋转链表 */,
 				14BDEDCB216E242500FCE2A7 /* 最长回文子串 */,
+				14A819B921763FFB0009126E /* 搜索二维矩阵 II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1100,6 +1121,14 @@
 				149CEB63210CCB9700690132 /* main.cpp */,
 			);
 			path = "全排列 II";
+			sourceTree = "<group>";
+		};
+		14A819BA21763FFB0009126E /* 搜索二维矩阵 II */ = {
+			isa = PBXGroup;
+			children = (
+				14A819BB21763FFB0009126E /* main.cpp */,
+			);
+			path = "搜索二维矩阵 II";
 			sourceTree = "<group>";
 		};
 		14A9F033210FEA9500901702 /* 全排列 */ = {
@@ -1667,6 +1696,23 @@
 			productReference = 149CEB61210CCB9700690132 /* 全排列 II */;
 			productType = "com.apple.product-type.tool";
 		};
+		14A819B821763FFB0009126E /* 搜索二维矩阵 II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A819BD21763FFB0009126E /* Build configuration list for PBXNativeTarget "搜索二维矩阵 II" */;
+			buildPhases = (
+				14A819B521763FFB0009126E /* Sources */,
+				14A819B621763FFB0009126E /* Frameworks */,
+				14A819B721763FFB0009126E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "搜索二维矩阵 II";
+			productName = "搜索二维矩阵 II";
+			productReference = 14A819B921763FFB0009126E /* 搜索二维矩阵 II */;
+			productType = "com.apple.product-type.tool";
+		};
 		14A9F031210FEA9500901702 /* 全排列 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14A9F038210FEA9500901702 /* Build configuration list for PBXNativeTarget "全排列" */;
@@ -2035,6 +2081,10 @@
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
+					14A819B821763FFB0009126E = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					14A9F031210FEA9500901702 = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -2150,6 +2200,7 @@
 				1430766121562D7000675A5E /* 字符串相乘 */,
 				1491ADAF215E5DC100AA0D7F /* 旋转链表 */,
 				14BDEDCA216E242500FCE2A7 /* 最长回文子串 */,
+				14A819B821763FFB0009126E /* 搜索二维矩阵 II */,
 			);
 		};
 /* End PBXProject section */
@@ -2360,6 +2411,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				149CEB64210CCB9700690132 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A819B521763FFB0009126E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A819BC21763FFB0009126E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3232,6 +3291,33 @@
 			};
 			name = Release;
 		};
+		14A819BE21763FFB0009126E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14A819BF21763FFB0009126E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		14A9F036210FEA9500901702 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3829,6 +3915,15 @@
 			buildConfigurations = (
 				149CEB65210CCB9700690132 /* Debug */,
 				149CEB66210CCB9700690132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A819BD21763FFB0009126E /* Build configuration list for PBXNativeTarget "搜索二维矩阵 II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A819BE21763FFB0009126E /* Debug */,
+				14A819BF21763FFB0009126E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
