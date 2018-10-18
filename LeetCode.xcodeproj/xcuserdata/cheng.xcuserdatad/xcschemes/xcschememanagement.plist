@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>为运算表达式设计优先级.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
 		<key>二叉搜索树迭代器.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -237,7 +242,7 @@
 		<key>搜索二维矩阵 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>39</integer>
 		</dict>
 		<key>旋转图像.xcscheme</key>
 		<dict>
@@ -257,7 +262,7 @@
 		<key>旋转链表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>40</integer>
 		</dict>
 		<key>无重复字符的最长子串.xcscheme</key>
 		<dict>
@@ -287,7 +292,7 @@
 		<key>最长回文子串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>41</integer>
 		</dict>
 		<key>根据字符出现频率排序.xcscheme</key>
 		<dict>
@@ -427,7 +432,7 @@
 		<key>验证IP地址.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>42</integer>
 		</dict>
 	</dict>
 </dict>
