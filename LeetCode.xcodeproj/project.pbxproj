@@ -14,6 +14,7 @@
 		1430765A2155131900675A5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143076592155131900675A5E /* main.cpp */; };
 		1430766521562D7100675A5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1430766421562D7100675A5E /* main.cpp */; };
 		143A7DC62154E0E900E0AC7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143A7DC52154E0E900E0AC7D /* main.cpp */; };
+		143F020A217C58A600928AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143F0209217C58A600928AFE /* main.cpp */; };
 		145969E92150B1AD00FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969E82150B1AD00FA01C8 /* main.cpp */; };
 		145969F42150EEC200FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969F32150EEC200FA01C8 /* main.cpp */; };
 		145969FF215105FB00FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969FE215105FB00FA01C8 /* main.cpp */; };
@@ -111,6 +112,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		143A7DC12154E0E900E0AC7D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		143F0205217C58A600928AFE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -487,6 +497,8 @@
 		1430766421562D7100675A5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		143A7DC32154E0E900E0AC7D /* 螺旋矩阵 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "螺旋矩阵"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143A7DC52154E0E900E0AC7D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		143F0207217C58A600928AFE /* 寻找重复的子树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "寻找重复的子树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		143F0209217C58A600928AFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		145969E62150B1AD00FA01C8 /* 正则表达式匹配 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "正则表达式匹配"; sourceTree = BUILT_PRODUCTS_DIR; };
 		145969E82150B1AD00FA01C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		145969F12150EEC200FA01C8 /* 删除链表的倒数第N个节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "删除链表的倒数第N个节点"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -611,6 +623,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		143A7DC02154E0E900E0AC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143F0204217C58A600928AFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -949,6 +968,14 @@
 			path = "螺旋矩阵";
 			sourceTree = "<group>";
 		};
+		143F0208217C58A600928AFE /* 寻找重复的子树 */ = {
+			isa = PBXGroup;
+			children = (
+				143F0209217C58A600928AFE /* main.cpp */,
+			);
+			path = "寻找重复的子树";
+			sourceTree = "<group>";
+		};
 		145969E72150B1AD00FA01C8 /* 正则表达式匹配 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1062,6 +1089,7 @@
 				14A819D221784C5F0009126E /* 数组中的第K个最大元素 */,
 				14A81A0E217A33340009126E /* 对角线遍历 */,
 				14A81A19217ABF960009126E /* 判断子序列 */,
+				143F0208217C58A600928AFE /* 寻找重复的子树 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1115,6 +1143,7 @@
 				14A819D121784C5F0009126E /* 数组中的第K个最大元素 */,
 				14A81A0D217A33340009126E /* 对角线遍历 */,
 				14A81A18217ABF960009126E /* 判断子序列 */,
+				143F0207217C58A600928AFE /* 寻找重复的子树 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1487,6 +1516,23 @@
 			name = "螺旋矩阵";
 			productName = "螺旋矩阵";
 			productReference = 143A7DC32154E0E900E0AC7D /* 螺旋矩阵 */;
+			productType = "com.apple.product-type.tool";
+		};
+		143F0206217C58A600928AFE /* 寻找重复的子树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143F020D217C58A600928AFE /* Build configuration list for PBXNativeTarget "寻找重复的子树" */;
+			buildPhases = (
+				143F0203217C58A600928AFE /* Sources */,
+				143F0204217C58A600928AFE /* Frameworks */,
+				143F0205217C58A600928AFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "寻找重复的子树";
+			productName = "寻找重复的子树";
+			productReference = 143F0207217C58A600928AFE /* 寻找重复的子树 */;
 			productType = "com.apple.product-type.tool";
 		};
 		145969E52150B1AD00FA01C8 /* 正则表达式匹配 */ = {
@@ -2189,6 +2235,10 @@
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
+					143F0206217C58A600928AFE = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					145969E52150B1AD00FA01C8 = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -2405,6 +2455,7 @@
 				14A819D021784C5F0009126E /* 数组中的第K个最大元素 */,
 				14A81A0C217A33340009126E /* 对角线遍历 */,
 				14A81A17217ABF960009126E /* 判断子序列 */,
+				143F0206217C58A600928AFE /* 寻找重复的子树 */,
 			);
 		};
 /* End PBXProject section */
@@ -2463,6 +2514,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				143A7DC62154E0E900E0AC7D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143F0203217C58A600928AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143F020A217C58A600928AFE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2934,6 +2993,33 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6426K9AWKV;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		143F020B217C58A600928AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		143F020C217C58A600928AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -4079,6 +4165,15 @@
 			buildConfigurations = (
 				143A7DC72154E0E900E0AC7D /* Debug */,
 				143A7DC82154E0E900E0AC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143F020D217C58A600928AFE /* Build configuration list for PBXNativeTarget "寻找重复的子树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143F020B217C58A600928AFE /* Debug */,
+				143F020C217C58A600928AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
