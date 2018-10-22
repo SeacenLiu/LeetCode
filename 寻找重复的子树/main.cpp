@@ -59,6 +59,9 @@ struct TreeNode {
 /*
  前序遍历
  使用unordered_map<string, int>来保存
+ 
+ 找到所有子树并记下来
+ 判断数量
  */
 
 typedef unordered_map<string, int> hash_map;
