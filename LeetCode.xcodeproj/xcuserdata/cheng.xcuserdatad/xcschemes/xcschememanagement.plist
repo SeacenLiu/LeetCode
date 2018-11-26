@@ -37,7 +37,7 @@
 		<key>两个排序数组的中位数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>51</integer>
 		</dict>
 		<key>两数之和.xcscheme</key>
 		<dict>
@@ -92,7 +92,7 @@
 		<key>二叉树的最近公共祖先.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>50</integer>
+			<integer>49</integer>
 		</dict>
 		<key>从中序与后序遍历序列构造二叉树.xcscheme</key>
 		<dict>
@@ -147,7 +147,7 @@
 		<key>判断子序列.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>45</integer>
 		</dict>
 		<key>前K个高频元素.xcscheme</key>
 		<dict>
@@ -157,12 +157,12 @@
 		<key>前K个高频元素.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>30</integer>
 		</dict>
 		<key>单词的压缩编码.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>46</integer>
 		</dict>
 		<key>反转链表.xcscheme</key>
 		<dict>
@@ -247,12 +247,12 @@
 		<key>对角线遍历.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>42</integer>
 		</dict>
 		<key>寻找重复的子树.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>47</integer>
 		</dict>
 		<key>找树左下角的值.xcscheme</key>
 		<dict>
@@ -272,7 +272,12 @@
 		<key>括号生成.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>25</integer>
+		</dict>
+		<key>排序链表.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>53</integer>
 		</dict>
 		<key>搜索二维矩阵 II.xcscheme_^#shared#^_</key>
 		<dict>
@@ -282,7 +287,7 @@
 		<key>数组中的第K个最大元素.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>44</integer>
 		</dict>
 		<key>旋转图像.xcscheme</key>
 		<dict>
@@ -292,7 +297,7 @@
 		<key>旋转图像.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>26</integer>
 		</dict>
 		<key>旋转链表.xcscheme</key>
 		<dict>
@@ -337,7 +342,7 @@
 		<key>有效的括号.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>48</integer>
 		</dict>
 		<key>根据字符出现频率排序.xcscheme</key>
 		<dict>
@@ -347,7 +352,7 @@
 		<key>根据字符出现频率排序.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>27</integer>
 		</dict>
 		<key>正则表达式匹配.xcscheme</key>
 		<dict>
@@ -357,7 +362,7 @@
 		<key>正则表达式匹配.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>29</integer>
 		</dict>
 		<key>爬楼梯.xcscheme</key>
 		<dict>
@@ -372,7 +377,7 @@
 		<key>环形链表 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>51</integer>
+			<integer>50</integer>
 		</dict>
 		<key>用队列实现栈.xcscheme</key>
 		<dict>
@@ -392,7 +397,7 @@
 		<key>电话号码的字母组合.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>28</integer>
 		</dict>
 		<key>相对名次.xcscheme</key>
 		<dict>
@@ -412,7 +417,7 @@
 		<key>第k个排列.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>24</integer>
 		</dict>
 		<key>组合.xcscheme</key>
 		<dict>
@@ -422,7 +427,7 @@
 		<key>组合.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>20</integer>
 		</dict>
 		<key>组合总和 II.xcscheme</key>
 		<dict>
@@ -432,7 +437,7 @@
 		<key>组合总和 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>23</integer>
 		</dict>
 		<key>组合总和.xcscheme</key>
 		<dict>
