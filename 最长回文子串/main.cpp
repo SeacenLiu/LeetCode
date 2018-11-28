@@ -37,7 +37,7 @@ public:
         if (len == 1) return s;
         int longest = 1;
         int start = 0;
-        vector<vector<int>> dp(len, vector<int>(len));
+        vector<vector<int>> dp(len, vector<int>(len)); // 记录 i 到 j 是否是回文
         for (int i = 0; i < len; ++i) {
             dp[i][i] = 1;
             if (i<len-1) {
