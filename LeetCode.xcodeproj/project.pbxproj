@@ -63,6 +63,7 @@
 		14F78DF722355B3C00D87FE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F78DF622355B3C00D87FE4 /* main.cpp */; };
 		14F78E0222356FE000D87FE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F78E0122356FE000D87FE4 /* main.cpp */; };
 		14F78E0D2235EE2F00D87FE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F78E0C2235EE2F00D87FE4 /* main.cpp */; };
+		14F78E182235F29F00D87FE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F78E172235F29F00D87FE4 /* main.cpp */; };
 		14F7C8C72113E83800CDE135 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F7C8C62113E83800CDE135 /* main.cpp */; };
 		14F7C8D22113F2E800CDE135 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F7C8D12113F2E800CDE135 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -572,6 +573,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		14F78E132235F29F00D87FE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		14F7C8C22113E83700CDE135 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -705,6 +715,8 @@
 		14F78E0122356FE000D87FE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14F78E0A2235EE2F00D87FE4 /* 11. 盛最多水的容器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11. 盛最多水的容器"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F78E0C2235EE2F00D87FE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14F78E152235F29F00D87FE4 /* 89. 格雷编码 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "89. 格雷编码"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F78E172235F29F00D87FE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14F7C8C42113E83700CDE135 /* 组合总和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "组合总和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F7C8C62113E83800CDE135 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14F7C8CF2113F2E800CDE135 /* 组合总和 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "组合总和 II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1104,6 +1116,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14F78E122235F29F00D87FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14F7C8C12113E83700CDE135 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1342,6 +1361,7 @@
 				14F78DF522355B3C00D87FE4 /* Z 字形变换 */,
 				14F78E0022356FE000D87FE4 /* 16. 最接近的三数之和 */,
 				14F78E0B2235EE2F00D87FE4 /* 11. 盛最多水的容器 */,
+				14F78E162235F29F00D87FE4 /* 89. 格雷编码 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1407,6 +1427,7 @@
 				14F78DF422355B3C00D87FE4 /* Z 字形变换 */,
 				14F78DFF22356FE000D87FE4 /* 最接近的三数之和 */,
 				14F78E0A2235EE2F00D87FE4 /* 11. 盛最多水的容器 */,
+				14F78E152235F29F00D87FE4 /* 89. 格雷编码 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1697,6 +1718,14 @@
 				14F78E0C2235EE2F00D87FE4 /* main.cpp */,
 			);
 			path = "11. 盛最多水的容器";
+			sourceTree = "<group>";
+		};
+		14F78E162235F29F00D87FE4 /* 89. 格雷编码 */ = {
+			isa = PBXGroup;
+			children = (
+				14F78E172235F29F00D87FE4 /* main.cpp */,
+			);
+			path = "89. 格雷编码";
 			sourceTree = "<group>";
 		};
 		14F7C8C52113E83800CDE135 /* 组合总和 */ = {
@@ -2670,6 +2699,23 @@
 			productReference = 14F78E0A2235EE2F00D87FE4 /* 11. 盛最多水的容器 */;
 			productType = "com.apple.product-type.tool";
 		};
+		14F78E142235F29F00D87FE4 /* 89. 格雷编码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F78E192235F29F00D87FE4 /* Build configuration list for PBXNativeTarget "89. 格雷编码" */;
+			buildPhases = (
+				14F78E112235F29F00D87FE4 /* Sources */,
+				14F78E122235F29F00D87FE4 /* Frameworks */,
+				14F78E132235F29F00D87FE4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "89. 格雷编码";
+			productName = "89. 格雷编码";
+			productReference = 14F78E152235F29F00D87FE4 /* 89. 格雷编码 */;
+			productType = "com.apple.product-type.tool";
+		};
 		14F7C8C32113E83700CDE135 /* 组合总和 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F7C8CA2113E83800CDE135 /* Build configuration list for PBXNativeTarget "组合总和" */;
@@ -2937,6 +2983,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					14F78E142235F29F00D87FE4 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					14F7C8C32113E83700CDE135 = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -3017,6 +3067,7 @@
 				14F78DF322355B3C00D87FE4 /* Z 字形变换 */,
 				14F78DFE22356FE000D87FE4 /* 最接近的三数之和 */,
 				14F78E092235EE2F00D87FE4 /* 11. 盛最多水的容器 */,
+				14F78E142235F29F00D87FE4 /* 89. 格雷编码 */,
 			);
 		};
 /* End PBXProject section */
@@ -3467,6 +3518,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F78E0D2235EE2F00D87FE4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F78E112235F29F00D87FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F78E182235F29F00D87FE4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4991,6 +5050,33 @@
 			};
 			name = Release;
 		};
+		14F78E1A2235F29F00D87FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14F78E1B2235F29F00D87FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		14F7C8C82113E83800CDE135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5561,6 +5647,15 @@
 			buildConfigurations = (
 				14F78E0F2235EE2F00D87FE4 /* Debug */,
 				14F78E102235EE2F00D87FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F78E192235F29F00D87FE4 /* Build configuration list for PBXNativeTarget "89. 格雷编码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F78E1A2235F29F00D87FE4 /* Debug */,
+				14F78E1B2235F29F00D87FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
