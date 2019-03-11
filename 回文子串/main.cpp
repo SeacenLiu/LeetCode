@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  回文子串
+//  647. 回文子串
 //
 //  Created by SeacenLiu on 2018/11/28.
 //  Copyright © 2018 成. All rights reserved.
@@ -26,6 +26,11 @@
  输入的字符串长度不会超过1000。
  */
 
+/**
+ dp[i+1,j-1], str[i] = str[j]
+ dp[i,j] = 0, str[i] != str[j]
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -33,7 +38,44 @@ using namespace std;
 class Solution {
 public:
     int countSubstrings(string s) {
-        for (int i = 0; i < s.length(); ++i) {
+        int len = (int)s.size();
+        if (len <= 0) return 0;
+        if (len == 1) return 1;
+        // 创建状态表
+        vector<vector<int>> dp(len, vector<int>(len));
+        int sum = 0;
+        // 第一步初始化
+        for (int i = 0; i < len; ++i) {
+            // 长度为 1 的回文串
+            dp[i][i] = 1;
+            sum++;
+            if (i < len-1) {
+                if (s[i] == s[i+1]) {
+                    // 长度为 2 的回文串
+                    dp[i][i+1] = 1;
+                    sum++;
+                }
+            }
+        }
+        // 动态推进
+        for (int l = 3; l <= len; ++l) {
+            // 上面初始化的时候已经把长度为 2 的回文串找出，因此从长度为 3 的开始
+            for (int i = 0; i <= len-l; ++i) {
+                int j = i + l - 1;
+                if (s[i] == s[j] && dp[i+1][j-1] == 1) {
+                    dp[i][j] = 1;
+                    sum++;
+                }
+            }
+        }
+        return sum;
+    }
+ };
+
+class Solution1 {
+public:
+    int countSubstrings(string s) {
+        for (int i = 0; i < s.length(); ++i) { // 每个字符串都能做开头
             extendSubstrings(s, i, i);  //以 s(i) 为中心向两边扩散
             extendSubstrings(s, i, i+1);  //以 s(i) 与 s(i+1) 为中心向两边扩散
         }
@@ -60,41 +102,3 @@ int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
     return 0;
 }
-
-/*
- dp[i+1,j-1], str[i] = str[j]
- dp[i,j] =
- 0, str[i] != str[j]
- */
-/* 28ms
- class Solution {
- public:
- int countSubstrings(string s) {
- int len = (int)s.size();
- if (len <= 0) return 0;
- if (len == 1) return 1;
- vector<vector<int>> dp(len, vector<int>(len));
- int sum = 0;
- for (int i = 0; i < len; ++i) {
- dp[i][i] = 1;
- sum++;
- if (i < len-1) {
- if (s[i] == s[i+1]) {
- dp[i][i+1] = 1;
- sum++;
- }
- }
- }
- for (int l = 3; l <= len; ++l) {
- for (int i = 0; i <= len-l; ++i) {
- int j = i + l - 1;
- if (s[i] == s[j] && dp[i+1][j-1] == 1) {
- dp[i][j] = 1;
- sum++;
- }
- }
- }
- return sum;
- }
- };
- */
