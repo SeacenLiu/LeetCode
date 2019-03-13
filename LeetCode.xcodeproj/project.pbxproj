@@ -13,6 +13,7 @@
 		1418C42020B0021B006C1AF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1418C41F20B0021B006C1AF7 /* main.cpp */; };
 		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
+		142C2D8E2238F5F700931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2D8D2238F5F700931589 /* main.cpp */; };
 		1430765A2155131900675A5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143076592155131900675A5E /* main.cpp */; };
 		1430766521562D7100675A5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1430766421562D7100675A5E /* main.cpp */; };
 		143A7DC62154E0E900E0AC7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143A7DC52154E0E900E0AC7D /* main.cpp */; };
@@ -118,6 +119,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1421E39320A0021C00A4C208 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		142C2D892238F5F700931589 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -645,6 +655,8 @@
 		1421E38C209FFAF900A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1421E39520A0021C00A4C208 /* 填充同一层的兄弟节点 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "填充同一层的兄弟节点 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1421E39720A0021C00A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		142C2D8B2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. 删除排序数组中的重复项"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142C2D8D2238F5F700931589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		143076572155131900675A5E /* 螺旋矩阵 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "螺旋矩阵 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143076592155131900675A5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1430766221562D7000675A5E /* 字符串相乘 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "字符串相乘"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -796,6 +808,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1421E39220A0021C00A4C208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142C2D882238F5F700931589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1245,6 +1264,14 @@
 			path = "填充同一层的兄弟节点 II";
 			sourceTree = "<group>";
 		};
+		142C2D8C2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {
+			isa = PBXGroup;
+			children = (
+				142C2D8D2238F5F700931589 /* main.cpp */,
+			);
+			path = "26. 删除排序数组中的重复项";
+			sourceTree = "<group>";
+		};
 		143076582155131900675A5E /* 螺旋矩阵 II */ = {
 			isa = PBXGroup;
 			children = (
@@ -1430,6 +1457,7 @@
 				14F78E212235FD8100D87FE4 /* (*)124. 二叉树中的最大路径和 */,
 				14F78E4E223653AB00D87FE4 /* 7. 整数反转 */,
 				14761E70223675A9005E6E2A /* 160. 相交链表 */,
+				142C2D8C2238F5F700931589 /* 26. 删除排序数组中的重复项 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1499,6 +1527,7 @@
 				14F78E202235FD8100D87FE4 /* 124. 二叉树中的最大路径和 */,
 				14F78E4D223653AB00D87FE4 /* 7. 整数反转 */,
 				14761E6F223675A9005E6E2A /* 160. 相交链表 */,
+				142C2D8B2238F5F700931589 /* 26. 删除排序数组中的重复项 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1934,6 +1963,23 @@
 			name = "填充同一层的兄弟节点 II";
 			productName = "填充同一层的兄弟节点 II";
 			productReference = 1421E39520A0021C00A4C208 /* 填充同一层的兄弟节点 II */;
+			productType = "com.apple.product-type.tool";
+		};
+		142C2D8A2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142C2D912238F5F700931589 /* Build configuration list for PBXNativeTarget "26. 删除排序数组中的重复项" */;
+			buildPhases = (
+				142C2D872238F5F700931589 /* Sources */,
+				142C2D882238F5F700931589 /* Frameworks */,
+				142C2D892238F5F700931589 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "26. 删除排序数组中的重复项";
+			productName = "26. 删除排序数组中的重复项";
+			productReference = 142C2D8B2238F5F700931589 /* 26. 删除排序数组中的重复项 */;
 			productType = "com.apple.product-type.tool";
 		};
 		143076562155131900675A5E /* 螺旋矩阵 II */ = {
@@ -2921,6 +2967,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					142C2D8A2238F5F700931589 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					143076562155131900675A5E = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -3221,6 +3271,7 @@
 				14F78E1F2235FD8100D87FE4 /* 124. 二叉树中的最大路径和 */,
 				14F78E4C223653AB00D87FE4 /* 7. 整数反转 */,
 				14761E6E223675A9005E6E2A /* 160. 相交链表 */,
+				142C2D8A2238F5F700931589 /* 26. 删除排序数组中的重复项 */,
 			);
 		};
 /* End PBXProject section */
@@ -3271,6 +3322,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1421E39820A0021C00A4C208 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142C2D872238F5F700931589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142C2D8E2238F5F700931589 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3852,6 +3911,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		142C2D8F2238F5F700931589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		142C2D902238F5F700931589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -5446,6 +5532,15 @@
 			buildConfigurations = (
 				1421E39A20A0021C00A4C208 /* Debug */,
 				1421E39B20A0021C00A4C208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142C2D912238F5F700931589 /* Build configuration list for PBXNativeTarget "26. 删除排序数组中的重复项" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142C2D8F2238F5F700931589 /* Debug */,
+				142C2D902238F5F700931589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
