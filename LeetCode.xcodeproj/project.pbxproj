@@ -14,6 +14,8 @@
 		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
 		142C2D8E2238F5F700931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2D8D2238F5F700931589 /* main.cpp */; };
+		142C2D992239002400931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2D982239002400931589 /* main.cpp */; };
+		142C2DA422393D0200931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2DA322393D0200931589 /* main.cpp */; };
 		1430765A2155131900675A5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143076592155131900675A5E /* main.cpp */; };
 		1430766521562D7100675A5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1430766421562D7100675A5E /* main.cpp */; };
 		143A7DC62154E0E900E0AC7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143A7DC52154E0E900E0AC7D /* main.cpp */; };
@@ -128,6 +130,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		142C2D892238F5F700931589 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		142C2D942239002400931589 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		142C2D9F22393D0200931589 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -657,6 +677,10 @@
 		1421E39720A0021C00A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		142C2D8B2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. 删除排序数组中的重复项"; sourceTree = BUILT_PRODUCTS_DIR; };
 		142C2D8D2238F5F700931589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		142C2D962239002400931589 /* 33. 搜索旋转排序数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "33. 搜索旋转排序数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142C2D982239002400931589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		142C2DA122393D0200931589 /* 88. 合并两个有序数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "88. 合并两个有序数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142C2DA322393D0200931589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		143076572155131900675A5E /* 螺旋矩阵 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "螺旋矩阵 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143076592155131900675A5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1430766221562D7000675A5E /* 字符串相乘 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "字符串相乘"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -815,6 +839,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		142C2D882238F5F700931589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142C2D932239002400931589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142C2D9E22393D0200931589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1272,6 +1310,22 @@
 			path = "26. 删除排序数组中的重复项";
 			sourceTree = "<group>";
 		};
+		142C2D972239002400931589 /* 33. 搜索旋转排序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				142C2D982239002400931589 /* main.cpp */,
+			);
+			path = "33. 搜索旋转排序数组";
+			sourceTree = "<group>";
+		};
+		142C2DA222393D0200931589 /* 88. 合并两个有序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				142C2DA322393D0200931589 /* main.cpp */,
+			);
+			path = "88. 合并两个有序数组";
+			sourceTree = "<group>";
+		};
 		143076582155131900675A5E /* 螺旋矩阵 II */ = {
 			isa = PBXGroup;
 			children = (
@@ -1458,6 +1512,8 @@
 				14F78E4E223653AB00D87FE4 /* 7. 整数反转 */,
 				14761E70223675A9005E6E2A /* 160. 相交链表 */,
 				142C2D8C2238F5F700931589 /* 26. 删除排序数组中的重复项 */,
+				142C2D972239002400931589 /* 33. 搜索旋转排序数组 */,
+				142C2DA222393D0200931589 /* 88. 合并两个有序数组 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1528,6 +1584,8 @@
 				14F78E4D223653AB00D87FE4 /* 7. 整数反转 */,
 				14761E6F223675A9005E6E2A /* 160. 相交链表 */,
 				142C2D8B2238F5F700931589 /* 26. 删除排序数组中的重复项 */,
+				142C2D962239002400931589 /* 33. 搜索旋转排序数组 */,
+				142C2DA122393D0200931589 /* 88. 合并两个有序数组 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1980,6 +2038,40 @@
 			name = "26. 删除排序数组中的重复项";
 			productName = "26. 删除排序数组中的重复项";
 			productReference = 142C2D8B2238F5F700931589 /* 26. 删除排序数组中的重复项 */;
+			productType = "com.apple.product-type.tool";
+		};
+		142C2D952239002400931589 /* 33. 搜索旋转排序数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142C2D9A2239002400931589 /* Build configuration list for PBXNativeTarget "33. 搜索旋转排序数组" */;
+			buildPhases = (
+				142C2D922239002400931589 /* Sources */,
+				142C2D932239002400931589 /* Frameworks */,
+				142C2D942239002400931589 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "33. 搜索旋转排序数组";
+			productName = "33. 搜索旋转排序数组";
+			productReference = 142C2D962239002400931589 /* 33. 搜索旋转排序数组 */;
+			productType = "com.apple.product-type.tool";
+		};
+		142C2DA022393D0200931589 /* 88. 合并两个有序数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142C2DA722393D0200931589 /* Build configuration list for PBXNativeTarget "88. 合并两个有序数组" */;
+			buildPhases = (
+				142C2D9D22393D0200931589 /* Sources */,
+				142C2D9E22393D0200931589 /* Frameworks */,
+				142C2D9F22393D0200931589 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "88. 合并两个有序数组";
+			productName = "88. 合并两个有序数组";
+			productReference = 142C2DA122393D0200931589 /* 88. 合并两个有序数组 */;
 			productType = "com.apple.product-type.tool";
 		};
 		143076562155131900675A5E /* 螺旋矩阵 II */ = {
@@ -2971,6 +3063,14 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					142C2D952239002400931589 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					142C2DA022393D0200931589 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					143076562155131900675A5E = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -3272,6 +3372,8 @@
 				14F78E4C223653AB00D87FE4 /* 7. 整数反转 */,
 				14761E6E223675A9005E6E2A /* 160. 相交链表 */,
 				142C2D8A2238F5F700931589 /* 26. 删除排序数组中的重复项 */,
+				142C2D952239002400931589 /* 33. 搜索旋转排序数组 */,
+				142C2DA022393D0200931589 /* 88. 合并两个有序数组 */,
 			);
 		};
 /* End PBXProject section */
@@ -3330,6 +3432,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				142C2D8E2238F5F700931589 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142C2D922239002400931589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142C2D992239002400931589 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142C2D9D22393D0200931589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142C2DA422393D0200931589 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3930,6 +4048,60 @@
 			name = Debug;
 		};
 		142C2D902238F5F700931589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		142C2D9B2239002400931589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		142C2D9C2239002400931589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		142C2DA522393D0200931589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		142C2DA622393D0200931589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -5541,6 +5713,24 @@
 			buildConfigurations = (
 				142C2D8F2238F5F700931589 /* Debug */,
 				142C2D902238F5F700931589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142C2D9A2239002400931589 /* Build configuration list for PBXNativeTarget "33. 搜索旋转排序数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142C2D9B2239002400931589 /* Debug */,
+				142C2D9C2239002400931589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142C2DA722393D0200931589 /* Build configuration list for PBXNativeTarget "88. 合并两个有序数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142C2DA522393D0200931589 /* Debug */,
+				142C2DA622393D0200931589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
