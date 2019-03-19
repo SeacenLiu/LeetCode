@@ -22,7 +22,7 @@
 		<key>136. 只出现一次的数字.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>66</integer>
+			<integer>67</integer>
 		</dict>
 		<key>160. 相交链表.xcscheme_^#shared#^_</key>
 		<dict>
@@ -32,17 +32,17 @@
 		<key>169. 求众数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>67</integer>
+			<integer>68</integer>
 		</dict>
 		<key>223. 矩形面积.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>69</integer>
+			<integer>66</integer>
 		</dict>
 		<key>230. 二叉搜索树中第K小的元素.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>68</integer>
+			<integer>69</integer>
 		</dict>
 		<key>26. 删除排序数组中的重复项.xcscheme_^#shared#^_</key>
 		<dict>
@@ -58,6 +58,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>60</integer>
+		</dict>
+		<key>860. 柠檬水找零.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>70</integer>
 		</dict>
 		<key>88. 合并两个有序数组.xcscheme_^#shared#^_</key>
 		<dict>
