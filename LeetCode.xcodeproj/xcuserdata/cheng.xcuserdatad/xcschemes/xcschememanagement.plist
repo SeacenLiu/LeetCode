@@ -19,10 +19,15 @@
 			<key>orderHint</key>
 			<integer>59</integer>
 		</dict>
+		<key>13. 罗马数字转整数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>72</integer>
+		</dict>
 		<key>135. 分发糖果.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>71</integer>
+			<integer>70</integer>
 		</dict>
 		<key>136. 只出现一次的数字.xcscheme_^#shared#^_</key>
 		<dict>
@@ -67,7 +72,7 @@
 		<key>860. 柠檬水找零.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>70</integer>
+			<integer>71</integer>
 		</dict>
 		<key>88. 合并两个有序数组.xcscheme_^#shared#^_</key>
 		<dict>
