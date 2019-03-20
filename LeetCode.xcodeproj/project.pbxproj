@@ -21,6 +21,7 @@
 		143A7DC62154E0E900E0AC7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143A7DC52154E0E900E0AC7D /* main.cpp */; };
 		143F020A217C58A600928AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143F0209217C58A600928AFE /* main.cpp */; };
 		143F0215217D685100928AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143F0214217D685100928AFE /* main.cpp */; };
+		144FA3A02241BE6E0011DE12 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144FA39F2241BE6E0011DE12 /* main.cpp */; };
 		145969E92150B1AD00FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969E82150B1AD00FA01C8 /* main.cpp */; };
 		145969F42150EEC200FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969F32150EEC200FA01C8 /* main.cpp */; };
 		145969FF215105FB00FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969FE215105FB00FA01C8 /* main.cpp */; };
@@ -201,6 +202,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		143F0210217D685000928AFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		144FA39B2241BE6E0011DE12 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -753,6 +763,8 @@
 		143F0209217C58A600928AFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		143F0212217D685000928AFE /* 单词的压缩编码 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单词的压缩编码"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143F0214217D685100928AFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		144FA39D2241BE6E0011DE12 /* 135. 分发糖果 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "135. 分发糖果"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144FA39F2241BE6E0011DE12 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		145969E62150B1AD00FA01C8 /* 正则表达式匹配 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "正则表达式匹配"; sourceTree = BUILT_PRODUCTS_DIR; };
 		145969E82150B1AD00FA01C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		145969F12150EEC200FA01C8 /* 删除链表的倒数第N个节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "删除链表的倒数第N个节点"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -963,6 +975,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		143F020F217D685000928AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FA39A2241BE6E0011DE12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1483,6 +1502,14 @@
 			path = "单词的压缩编码";
 			sourceTree = "<group>";
 		};
+		144FA39E2241BE6E0011DE12 /* 135. 分发糖果 */ = {
+			isa = PBXGroup;
+			children = (
+				144FA39F2241BE6E0011DE12 /* main.cpp */,
+			);
+			path = "135. 分发糖果";
+			sourceTree = "<group>";
+		};
 		145969E72150B1AD00FA01C8 /* 正则表达式匹配 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1662,6 +1689,7 @@
 				146094202239D5A1003C9364 /* 230. 二叉搜索树中第K小的元素 */,
 				1497D44222411F1F005DD8B8 /* 223. 矩形面积 */,
 				1497D44E224151FF005DD8B8 /* 860. 柠檬水找零 */,
+				144FA39E2241BE6E0011DE12 /* 135. 分发糖果 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1740,6 +1768,7 @@
 				1460941F2239D5A0003C9364 /* 230. 二叉搜索树中第K小的元素 */,
 				1497D44122411F1F005DD8B8 /* 223. 矩形面积 */,
 				1497D44D224151FF005DD8B8 /* 860. 柠檬水找零 */,
+				144FA39D2241BE6E0011DE12 /* 135. 分发糖果 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2343,6 +2372,23 @@
 			name = "单词的压缩编码";
 			productName = "单词的压缩编码";
 			productReference = 143F0212217D685000928AFE /* 单词的压缩编码 */;
+			productType = "com.apple.product-type.tool";
+		};
+		144FA39C2241BE6E0011DE12 /* 135. 分发糖果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144FA3A32241BE6E0011DE12 /* Build configuration list for PBXNativeTarget "135. 分发糖果" */;
+			buildPhases = (
+				144FA3992241BE6E0011DE12 /* Sources */,
+				144FA39A2241BE6E0011DE12 /* Frameworks */,
+				144FA39B2241BE6E0011DE12 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "135. 分发糖果";
+			productName = "135. 分发糖果";
+			productReference = 144FA39D2241BE6E0011DE12 /* 135. 分发糖果 */;
 			productType = "com.apple.product-type.tool";
 		};
 		145969E52150B1AD00FA01C8 /* 正则表达式匹配 */ = {
@@ -3379,6 +3425,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					144FA39C2241BE6E0011DE12 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					145969E52150B1AD00FA01C8 = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -3692,6 +3742,7 @@
 				1460941E2239D5A0003C9364 /* 230. 二叉搜索树中第K小的元素 */,
 				1497D44022411F1F005DD8B8 /* 223. 矩形面积 */,
 				1497D44C224151FF005DD8B8 /* 860. 柠檬水找零 */,
+				144FA39C2241BE6E0011DE12 /* 135. 分发糖果 */,
 			);
 		};
 /* End PBXProject section */
@@ -3806,6 +3857,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				143F0215217D685100928AFE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FA3992241BE6E0011DE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144FA3A02241BE6E0011DE12 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4605,6 +4664,33 @@
 			name = Debug;
 		};
 		143F0217217D685100928AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		144FA3A12241BE6E0011DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		144FA3A22241BE6E0011DE12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -6306,6 +6392,15 @@
 			buildConfigurations = (
 				143F0216217D685100928AFE /* Debug */,
 				143F0217217D685100928AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144FA3A32241BE6E0011DE12 /* Build configuration list for PBXNativeTarget "135. 分发糖果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144FA3A12241BE6E0011DE12 /* Debug */,
+				144FA3A22241BE6E0011DE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
