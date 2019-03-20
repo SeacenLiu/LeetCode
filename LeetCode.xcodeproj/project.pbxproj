@@ -11,6 +11,7 @@
 		140A6D342199AF3C006F2402 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 140A6D332199AF3C006F2402 /* main.cpp */; };
 		140ED0FB21AE7F8B00F1D1D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 140ED0FA21AE7F8B00F1D1D2 /* main.cpp */; };
 		1413485822422423004E2829 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1413485722422423004E2829 /* main.cpp */; };
+		14134868224224A3004E2829 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14134867224224A3004E2829 /* main.cpp */; };
 		1418C42020B0021B006C1AF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1418C41F20B0021B006C1AF7 /* main.cpp */; };
 		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
@@ -116,6 +117,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1413485322422423004E2829 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1413485E2242248E004E2829 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -783,6 +793,8 @@
 		140ED0FA21AE7F8B00F1D1D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1413485522422423004E2829 /* 64. 最小路径和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "64. 最小路径和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1413485722422423004E2829 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		141348602242248E004E2829 /* 8. 字符串转换整数 (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. 字符串转换整数 (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14134867224224A3004E2829 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1418C41D20B0021B006C1AF7 /* 反转链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "反转链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1418C41F20B0021B006C1AF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1421E38A209FFAF900A4C208 /* 用队列实现栈 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "用队列实现栈"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -953,6 +965,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1413485222422423004E2829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1413485D2242248E004E2829 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1498,6 +1517,14 @@
 			path = "64. 最小路径和";
 			sourceTree = "<group>";
 		};
+		141348612242248E004E2829 /* 8. 字符串转换整数 (atoi) */ = {
+			isa = PBXGroup;
+			children = (
+				14134867224224A3004E2829 /* main.cpp */,
+			);
+			path = "8. 字符串转换整数 (atoi)";
+			sourceTree = "<group>";
+		};
 		1418C41E20B0021B006C1AF7 /* 反转链表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1794,6 +1821,7 @@
 				144FA3B42241CFD80011DE12 /* 35. 搜索插入位置 */,
 				14FAE04622421C40004662B2 /* 213. 打家劫舍 II */,
 				1413485622422423004E2829 /* 64. 最小路径和 */,
+				141348612242248E004E2829 /* 8. 字符串转换整数 (atoi) */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1877,6 +1905,7 @@
 				144FA3B32241CFD80011DE12 /* 35. 搜索插入位置 */,
 				14FAE04522421C40004662B2 /* 213. 打家劫舍 II */,
 				1413485522422423004E2829 /* 64. 最小路径和 */,
+				141348602242248E004E2829 /* 8. 字符串转换整数 (atoi) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2318,6 +2347,23 @@
 			name = "64. 最小路径和";
 			productName = "64. 最小路径和";
 			productReference = 1413485522422423004E2829 /* 64. 最小路径和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1413485F2242248E004E2829 /* 8. 字符串转换整数 (atoi) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141348642242248E004E2829 /* Build configuration list for PBXNativeTarget "8. 字符串转换整数 (atoi)" */;
+			buildPhases = (
+				1413485C2242248E004E2829 /* Sources */,
+				1413485D2242248E004E2829 /* Frameworks */,
+				1413485E2242248E004E2829 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8. 字符串转换整数 (atoi)";
+			productName = "8. 字符串转换整数 (atoi)";
+			productReference = 141348602242248E004E2829 /* 8. 字符串转换整数 (atoi) */;
 			productType = "com.apple.product-type.tool";
 		};
 		1418C41C20B0021B006C1AF7 /* 反转链表 */ = {
@@ -3569,6 +3615,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					1413485F2242248E004E2829 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					1418C41C20B0021B006C1AF7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -3947,6 +3997,7 @@
 				144FA3B22241CFD80011DE12 /* 35. 搜索插入位置 */,
 				14FAE04422421C40004662B2 /* 213. 打家劫舍 II */,
 				1413485422422423004E2829 /* 64. 最小路径和 */,
+				1413485F2242248E004E2829 /* 8. 字符串转换整数 (atoi) */,
 			);
 		};
 /* End PBXProject section */
@@ -3981,6 +4032,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1413485822422423004E2829 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1413485C2242248E004E2829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14134868224224A3004E2829 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4663,6 +4722,33 @@
 			name = Debug;
 		};
 		1413485A22422423004E2829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		141348652242248E004E2829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		141348662242248E004E2829 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -6646,6 +6732,15 @@
 			buildConfigurations = (
 				1413485922422423004E2829 /* Debug */,
 				1413485A22422423004E2829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141348642242248E004E2829 /* Build configuration list for PBXNativeTarget "8. 字符串转换整数 (atoi)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141348652242248E004E2829 /* Debug */,
+				141348662242248E004E2829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
