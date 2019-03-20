@@ -23,6 +23,7 @@
 		143F0215217D685100928AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143F0214217D685100928AFE /* main.cpp */; };
 		144FA3A02241BE6E0011DE12 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144FA39F2241BE6E0011DE12 /* main.cpp */; };
 		144FA3AB2241C9480011DE12 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144FA3AA2241C9480011DE12 /* main.cpp */; };
+		144FA3B62241CFD80011DE12 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144FA3B52241CFD80011DE12 /* main.cpp */; };
 		145969E92150B1AD00FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969E82150B1AD00FA01C8 /* main.cpp */; };
 		145969F42150EEC200FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969F32150EEC200FA01C8 /* main.cpp */; };
 		145969FF215105FB00FA01C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 145969FE215105FB00FA01C8 /* main.cpp */; };
@@ -221,6 +222,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		144FA3A62241C9480011DE12 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		144FA3B12241CFD80011DE12 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -777,6 +787,8 @@
 		144FA39F2241BE6E0011DE12 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		144FA3A82241C9480011DE12 /* 13. 罗马数字转整数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13. 罗马数字转整数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		144FA3AA2241C9480011DE12 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		144FA3B32241CFD80011DE12 /* 35. 搜索插入位置 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. 搜索插入位置"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144FA3B52241CFD80011DE12 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		145969E62150B1AD00FA01C8 /* 正则表达式匹配 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "正则表达式匹配"; sourceTree = BUILT_PRODUCTS_DIR; };
 		145969E82150B1AD00FA01C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		145969F12150EEC200FA01C8 /* 删除链表的倒数第N个节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "删除链表的倒数第N个节点"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1001,6 +1013,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		144FA3A52241C9480011DE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FA3B02241CFD80011DE12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1537,6 +1556,14 @@
 			path = "13. 罗马数字转整数";
 			sourceTree = "<group>";
 		};
+		144FA3B42241CFD80011DE12 /* 35. 搜索插入位置 */ = {
+			isa = PBXGroup;
+			children = (
+				144FA3B52241CFD80011DE12 /* main.cpp */,
+			);
+			path = "35. 搜索插入位置";
+			sourceTree = "<group>";
+		};
 		145969E72150B1AD00FA01C8 /* 正则表达式匹配 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1718,6 +1745,7 @@
 				1497D44E224151FF005DD8B8 /* 860. 柠檬水找零 */,
 				144FA39E2241BE6E0011DE12 /* 135. 分发糖果 */,
 				144FA3A92241C9480011DE12 /* 13. 罗马数字转整数 */,
+				144FA3B42241CFD80011DE12 /* 35. 搜索插入位置 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1798,6 +1826,7 @@
 				1497D44D224151FF005DD8B8 /* 860. 柠檬水找零 */,
 				144FA39D2241BE6E0011DE12 /* 135. 分发糖果 */,
 				144FA3A82241C9480011DE12 /* 13. 罗马数字转整数 */,
+				144FA3B32241CFD80011DE12 /* 35. 搜索插入位置 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2435,6 +2464,23 @@
 			name = "13. 罗马数字转整数";
 			productName = "13. 罗马数字转整数";
 			productReference = 144FA3A82241C9480011DE12 /* 13. 罗马数字转整数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		144FA3B22241CFD80011DE12 /* 35. 搜索插入位置 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144FA3B72241CFD80011DE12 /* Build configuration list for PBXNativeTarget "35. 搜索插入位置" */;
+			buildPhases = (
+				144FA3AF2241CFD80011DE12 /* Sources */,
+				144FA3B02241CFD80011DE12 /* Frameworks */,
+				144FA3B12241CFD80011DE12 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "35. 搜索插入位置";
+			productName = "35. 搜索插入位置";
+			productReference = 144FA3B32241CFD80011DE12 /* 35. 搜索插入位置 */;
 			productType = "com.apple.product-type.tool";
 		};
 		145969E52150B1AD00FA01C8 /* 正则表达式匹配 */ = {
@@ -3479,6 +3525,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					144FA3B22241CFD80011DE12 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					145969E52150B1AD00FA01C8 = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -3794,6 +3844,7 @@
 				1497D44C224151FF005DD8B8 /* 860. 柠檬水找零 */,
 				144FA39C2241BE6E0011DE12 /* 135. 分发糖果 */,
 				144FA3A72241C9480011DE12 /* 13. 罗马数字转整数 */,
+				144FA3B22241CFD80011DE12 /* 35. 搜索插入位置 */,
 			);
 		};
 /* End PBXProject section */
@@ -3924,6 +3975,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				144FA3AB2241C9480011DE12 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FA3AF2241CFD80011DE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144FA3B62241CFD80011DE12 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4777,6 +4836,33 @@
 			name = Debug;
 		};
 		144FA3AE2241C9480011DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		144FA3B82241CFD80011DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		144FA3B92241CFD80011DE12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -6496,6 +6582,15 @@
 			buildConfigurations = (
 				144FA3AD2241C9480011DE12 /* Debug */,
 				144FA3AE2241C9480011DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144FA3B72241CFD80011DE12 /* Build configuration list for PBXNativeTarget "35. 搜索插入位置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144FA3B82241CFD80011DE12 /* Debug */,
+				144FA3B92241CFD80011DE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
