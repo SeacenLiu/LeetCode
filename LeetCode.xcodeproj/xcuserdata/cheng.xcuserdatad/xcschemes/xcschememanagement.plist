@@ -79,6 +79,11 @@
 			<key>orderHint</key>
 			<integer>79</integer>
 		</dict>
+		<key>279. 完全平方数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>322. 零钱兑换.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -638,6 +643,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1497D435223FCA26005DD8B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1499BB2322436FE000FCA05E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
