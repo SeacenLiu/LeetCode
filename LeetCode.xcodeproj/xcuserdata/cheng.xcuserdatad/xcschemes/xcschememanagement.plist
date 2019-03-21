@@ -89,6 +89,11 @@
 			<key>orderHint</key>
 			<integer>64</integer>
 		</dict>
+		<key>338. 比特位计数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 		<key>35. 搜索插入位置.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -628,6 +633,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1497D435223FCA26005DD8B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14B0E7DB22432E8600E68B5B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
