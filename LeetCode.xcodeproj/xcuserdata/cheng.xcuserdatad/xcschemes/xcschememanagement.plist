@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>343. 整数拆分.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>35. 搜索插入位置.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -633,6 +638,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1497D435223FCA26005DD8B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14AC029822433D5C003A52AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
