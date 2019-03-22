@@ -84,6 +84,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>32. 最长有效括号.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>322. 零钱兑换.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -658,6 +663,11 @@
 			<true/>
 		</dict>
 		<key>1499BB2E224375A800FCA05E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A7473E22446BD100916B9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
