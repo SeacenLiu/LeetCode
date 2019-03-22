@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>58</integer>
 		</dict>
+		<key>983. 最低票价.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>LeetCode.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -648,6 +653,11 @@
 			<true/>
 		</dict>
 		<key>1499BB2322436FE000FCA05E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1499BB2E224375A800FCA05E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
