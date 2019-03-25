@@ -114,6 +114,11 @@
 			<key>orderHint</key>
 			<integer>72</integer>
 		</dict>
+		<key>37. 解数独.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>64. 最小路径和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -128,6 +133,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>75</integer>
+		</dict>
+		<key>85. 最大矩形.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>860. 柠檬水找零.xcscheme_^#shared#^_</key>
 		<dict>
@@ -668,6 +678,16 @@
 			<true/>
 		</dict>
 		<key>14A7473E22446BD100916B9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A747492244BE0F00916B9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A747AF2248A49200916B9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
