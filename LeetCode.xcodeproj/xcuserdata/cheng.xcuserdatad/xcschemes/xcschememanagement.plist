@@ -129,6 +129,11 @@
 			<key>orderHint</key>
 			<integer>61</integer>
 		</dict>
+		<key>79. 单词搜索.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>8. 字符串转换整数 (atoi).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -688,6 +693,11 @@
 			<true/>
 		</dict>
 		<key>14A747AF2248A49200916B9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A747BA2248BAFC00916B9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
