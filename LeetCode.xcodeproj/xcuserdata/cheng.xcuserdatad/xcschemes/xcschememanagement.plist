@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>61</integer>
 		</dict>
+		<key>784. 字母大小写全排列.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>79. 单词搜索.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -683,6 +688,11 @@
 			<true/>
 		</dict>
 		<key>14847A94224E3F6A000B72E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14847A9F224E4787000B72E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
