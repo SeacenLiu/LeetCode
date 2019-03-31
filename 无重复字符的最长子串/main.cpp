@@ -17,39 +17,77 @@
 
 #include <iostream>
 #include <cstring>
+#include <vector>
+#include <unordered_map>
 using namespace std;
 
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int max = 0, left = 0;
-        string sub;
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = 0; j < sub.length(); j++) {
-                if (sub[j] == s[i]) {
-                    if (sub.length() > max) {
-                        max = (int)sub.length();
-                    }
-                    left = left+j+1;
-                    sub = "";
-                    for (int k = left; k <= i; k++) {
-                        sub += s[k];
-                    }
-                    goto here;
-                }
+        if (s.size() == 0) return 0;
+        int res = 0, start = 0, len = 0;
+        vector<int> map(256, -1);
+        for (int i = 0; i < s.size(); ++i) {
+            if (map[s[i]] == -1 || map[s[i]] < start) {
+                ++len;
+                map[s[i]] = i;
+            } else {
+                start = map[s[i]];
+                len = i - map[s[i]];
+                map[s[i]] = i;
             }
-            sub += s[i];
-        here:;
+            res = max(res, len);
         }
-        if (sub.length() > max) {
-            max = (int)sub.length();
+        return res;
+    }
+};
+
+class Solution1 {
+public:
+    int lengthOfLongestSubstring(string s) {
+        if (s.size() == 0) return 0;
+        if (s.size() == 1) return 1;
+        string temp = "";
+        int max = 1;
+        int cur = 0;
+        for (auto ch: s) {
+            int i = (int)temp.find(ch);
+            if (i == -1) {
+                temp += ch;
+                ++cur;
+            } else {
+                if (cur > max) { max = cur; }
+                temp = temp.substr(i+1);
+                temp += ch;
+                cur = (int)temp.size();
+            }
         }
+        if (cur > max) { max = cur; }
         return max;
     }
 };
 
 int main(int argc, const char * argv[]) {
-    Solution sol = Solution();
+    Solution1 sol = Solution1();
     cout << sol.lengthOfLongestSubstring("abcabcbb") << endl;
+    
+    Solution sol1 = Solution();
+    cout << sol1.lengthOfLongestSubstring("abcabcbb") << endl; // 3
+    
+    Solution sol2 = Solution();
+    cout << sol2.lengthOfLongestSubstring("dvdf") << endl; // 3
+    
+    Solution sol3 = Solution();
+    cout << sol3.lengthOfLongestSubstring("abba") << endl; // 2
+    
+    Solution sol4 = Solution();
+    cout << sol4.lengthOfLongestSubstring("") << endl; // 0
+    
+    Solution sol5 = Solution();
+    cout << sol5.lengthOfLongestSubstring("tmmzuxt") << endl; // 5
+    
+    Solution sol6 = Solution();
+    cout << sol6.lengthOfLongestSubstring(" ") << endl; // 1
+    
     return 0;
 }
