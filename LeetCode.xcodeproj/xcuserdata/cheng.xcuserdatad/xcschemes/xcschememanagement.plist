@@ -184,6 +184,11 @@
 			<key>orderHint</key>
 			<integer>58</integer>
 		</dict>
+		<key>90. 子集 II.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>980. 不同路径 III.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -703,6 +708,11 @@
 			<true/>
 		</dict>
 		<key>147C498222506B5A00CBB590</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>147C498D2252145400CBB590</key>
 		<dict>
 			<key>primary</key>
 			<true/>
