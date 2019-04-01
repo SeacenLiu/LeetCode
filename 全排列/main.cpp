@@ -58,6 +58,10 @@ int main(int argc, const char * argv[]) {
     vector<int> nums = {1,2,3};
     Solution sol = Solution();
     vector<vector<int>> ret = sol.permute(nums);
+    for (auto arr: ret) {
+        for (auto v: arr) cout << v << " ";
+        cout << endl;
+    }
     printf("complete\n");
     return 0;
 }

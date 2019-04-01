@@ -129,6 +129,11 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>526. 优美的排列.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>64. 最小路径和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -312,7 +317,7 @@
 		<key>全排列.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>15</integer>
 		</dict>
 		<key>删除与获得点数.xcscheme</key>
 		<dict>
@@ -697,6 +702,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>147C498222506B5A00CBB590</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>14847A94224E3F6A000B72E7</key>
 		<dict>
 			<key>primary</key>
@@ -748,6 +758,11 @@
 			<true/>
 		</dict>
 		<key>14A747BA2248BAFC00916B9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A9F031210FEA9500901702</key>
 		<dict>
 			<key>primary</key>
 			<true/>
