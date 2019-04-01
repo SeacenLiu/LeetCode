@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>73</integer>
 		</dict>
+		<key>131. 分割回文串.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>135. 分发糖果.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -783,6 +788,11 @@
 			<true/>
 		</dict>
 		<key>14B0E7DB22432E8600E68B5B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14E6739F2252387C00B017E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
