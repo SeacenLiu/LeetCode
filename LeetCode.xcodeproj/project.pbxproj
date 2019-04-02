@@ -18,6 +18,7 @@
 		1418C42020B0021B006C1AF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1418C41F20B0021B006C1AF7 /* main.cpp */; };
 		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
+		14292659225357D90056D569 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14292658225357D90056D569 /* main.cpp */; };
 		142C2D8E2238F5F700931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2D8D2238F5F700931589 /* main.cpp */; };
 		142C2D992239002400931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2D982239002400931589 /* main.cpp */; };
 		142C2DA422393D0200931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2DA322393D0200931589 /* main.cpp */; };
@@ -200,6 +201,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1421E39320A0021C00A4C208 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		14292654225357D80056D569 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1007,6 +1017,8 @@
 		1421E38C209FFAF900A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1421E39520A0021C00A4C208 /* 填充同一层的兄弟节点 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "填充同一层的兄弟节点 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1421E39720A0021C00A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14292656225357D80056D569 /* 93. 复原IP地址 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "93. 复原IP地址"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14292658225357D90056D569 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		142C2D8B2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. 删除排序数组中的重复项"; sourceTree = BUILT_PRODUCTS_DIR; };
 		142C2D8D2238F5F700931589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		142C2D962239002400931589 /* 33. 搜索旋转排序数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "33. 搜索旋转排序数组"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1254,6 +1266,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1421E39220A0021C00A4C208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14292653225357D80056D569 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1953,6 +1972,14 @@
 			path = "填充同一层的兄弟节点 II";
 			sourceTree = "<group>";
 		};
+		14292657225357D90056D569 /* 93. 复原IP地址 */ = {
+			isa = PBXGroup;
+			children = (
+				14292658225357D90056D569 /* main.cpp */,
+			);
+			path = "93. 复原IP地址";
+			sourceTree = "<group>";
+		};
 		142C2D8C2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2246,6 +2273,7 @@
 				147C498422506B5A00CBB590 /* 526. 优美的排列 */,
 				147C498F2252145400CBB590 /* 90. 子集 II */,
 				14E673A12252387C00B017E5 /* 131. 分割回文串 */,
+				14292657225357D90056D569 /* 93. 复原IP地址 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2350,6 +2378,7 @@
 				147C498322506B5A00CBB590 /* 526. 优美的排列 */,
 				147C498E2252145400CBB590 /* 90. 子集 II */,
 				14E673A02252387C00B017E5 /* 131. 分割回文串 */,
+				14292656225357D80056D569 /* 93. 复原IP地址 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3046,6 +3075,23 @@
 			name = "填充同一层的兄弟节点 II";
 			productName = "填充同一层的兄弟节点 II";
 			productReference = 1421E39520A0021C00A4C208 /* 填充同一层的兄弟节点 II */;
+			productType = "com.apple.product-type.tool";
+		};
+		14292655225357D80056D569 /* 93. 复原IP地址 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1429265C225357D90056D569 /* Build configuration list for PBXNativeTarget "93. 复原IP地址" */;
+			buildPhases = (
+				14292652225357D80056D569 /* Sources */,
+				14292653225357D80056D569 /* Frameworks */,
+				14292654225357D80056D569 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "93. 复原IP地址";
+			productName = "93. 复原IP地址";
+			productReference = 14292656225357D80056D569 /* 93. 复原IP地址 */;
 			productType = "com.apple.product-type.tool";
 		};
 		142C2D8A2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {
@@ -4563,6 +4609,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					14292655225357D80056D569 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					142C2D8A2238F5F700931589 = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -5018,6 +5068,7 @@
 				147C498222506B5A00CBB590 /* 526. 优美的排列 */,
 				147C498D2252145400CBB590 /* 90. 子集 II */,
 				14E6739F2252387C00B017E5 /* 131. 分割回文串 */,
+				14292655225357D80056D569 /* 93. 复原IP地址 */,
 			);
 		};
 /* End PBXProject section */
@@ -5108,6 +5159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1421E39820A0021C00A4C208 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14292652225357D80056D569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14292659225357D90056D569 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6066,6 +6125,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1429265A225357D90056D569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1429265B225357D90056D569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -8515,6 +8601,15 @@
 			buildConfigurations = (
 				1421E39A20A0021C00A4C208 /* Debug */,
 				1421E39B20A0021C00A4C208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1429265C225357D90056D569 /* Build configuration list for PBXNativeTarget "93. 复原IP地址" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1429265A225357D90056D569 /* Debug */,
+				1429265B225357D90056D569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
