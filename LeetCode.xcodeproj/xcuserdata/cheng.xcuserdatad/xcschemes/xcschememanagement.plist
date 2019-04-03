@@ -129,6 +129,11 @@
 			<key>orderHint</key>
 			<integer>72</integer>
 		</dict>
+		<key>357. 计算各个位数不同的数字个数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>37. 解数独.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -728,6 +733,11 @@
 			<true/>
 		</dict>
 		<key>1429269D2254390D0056D569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>142926AB2254504E0056D569</key>
 		<dict>
 			<key>primary</key>
 			<true/>

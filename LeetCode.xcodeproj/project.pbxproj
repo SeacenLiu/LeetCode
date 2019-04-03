@@ -20,6 +20,7 @@
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
 		14292659225357D90056D569 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14292658225357D90056D569 /* main.cpp */; };
 		142926A722544FC30056D569 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142926A02254390E0056D569 /* main.cpp */; };
+		142926AF2254504E0056D569 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142926AE2254504E0056D569 /* main.cpp */; };
 		142C2D8E2238F5F700931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2D8D2238F5F700931589 /* main.cpp */; };
 		142C2D992239002400931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2D982239002400931589 /* main.cpp */; };
 		142C2DA422393D0200931589 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142C2DA322393D0200931589 /* main.cpp */; };
@@ -220,6 +221,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1429269C2254390D0056D569 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		142926AA2254504E0056D569 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1031,6 +1041,8 @@
 		14292658225357D90056D569 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1429269E2254390E0056D569 /* 211. 添加与搜索单词 - 数据结构设计 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "211. 添加与搜索单词 - 数据结构设计"; sourceTree = BUILT_PRODUCTS_DIR; };
 		142926A02254390E0056D569 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		142926AC2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "357. 计算各个位数不同的数字个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142926AE2254504E0056D569 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		142C2D8B2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. 删除排序数组中的重复项"; sourceTree = BUILT_PRODUCTS_DIR; };
 		142C2D8D2238F5F700931589 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		142C2D962239002400931589 /* 33. 搜索旋转排序数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "33. 搜索旋转排序数组"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1292,6 +1304,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1429269B2254390D0056D569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142926A92254504E0056D569 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2007,6 +2026,14 @@
 			path = "211. 添加与搜索单词 - 数据结构设计";
 			sourceTree = "<group>";
 		};
+		142926AD2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */ = {
+			isa = PBXGroup;
+			children = (
+				142926AE2254504E0056D569 /* main.cpp */,
+			);
+			path = "357. 计算各个位数不同的数字个数";
+			sourceTree = "<group>";
+		};
 		142C2D8C2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2302,6 +2329,7 @@
 				14E673A12252387C00B017E5 /* 131. 分割回文串 */,
 				14292657225357D90056D569 /* 93. 复原IP地址 */,
 				1429269F2254390E0056D569 /* 211. 添加与搜索单词 - 数据结构设计 */,
+				142926AD2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2408,6 +2436,7 @@
 				14E673A02252387C00B017E5 /* 131. 分割回文串 */,
 				14292656225357D80056D569 /* 93. 复原IP地址 */,
 				1429269E2254390E0056D569 /* 211. 添加与搜索单词 - 数据结构设计 */,
+				142926AC2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3138,6 +3167,23 @@
 			name = "211. 添加与搜索单词 - 数据结构设计";
 			productName = "211. 添加与搜索单词 - 数据结构设计";
 			productReference = 1429269E2254390E0056D569 /* 211. 添加与搜索单词 - 数据结构设计 */;
+			productType = "com.apple.product-type.tool";
+		};
+		142926AB2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142926B02254504E0056D569 /* Build configuration list for PBXNativeTarget "357. 计算各个位数不同的数字个数" */;
+			buildPhases = (
+				142926A82254504E0056D569 /* Sources */,
+				142926A92254504E0056D569 /* Frameworks */,
+				142926AA2254504E0056D569 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "357. 计算各个位数不同的数字个数";
+			productName = "357. 计算各个位数不同的数字个数";
+			productReference = 142926AC2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */;
 			productType = "com.apple.product-type.tool";
 		};
 		142C2D8A2238F5F700931589 /* 26. 删除排序数组中的重复项 */ = {
@@ -4663,6 +4709,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					142926AB2254504E0056D569 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					142C2D8A2238F5F700931589 = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -5120,6 +5170,7 @@
 				14E6739F2252387C00B017E5 /* 131. 分割回文串 */,
 				14292655225357D80056D569 /* 93. 复原IP地址 */,
 				1429269D2254390D0056D569 /* 211. 添加与搜索单词 - 数据结构设计 */,
+				142926AB2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */,
 			);
 		};
 /* End PBXProject section */
@@ -5226,6 +5277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				142926A722544FC30056D569 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142926A82254504E0056D569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142926AF2254504E0056D569 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6230,6 +6289,33 @@
 			name = Debug;
 		};
 		142926A42254390E0056D569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		142926B12254504E0056D569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		142926B22254504E0056D569 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -8705,6 +8791,15 @@
 			buildConfigurations = (
 				142926A32254390E0056D569 /* Debug */,
 				142926A42254390E0056D569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142926B02254504E0056D569 /* Build configuration list for PBXNativeTarget "357. 计算各个位数不同的数字个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142926B12254504E0056D569 /* Debug */,
+				142926B22254504E0056D569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
