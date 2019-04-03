@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>67</integer>
 		</dict>
+		<key>211. 添加与搜索单词 - 数据结构设计.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>213. 打家劫舍 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -718,6 +723,11 @@
 			<true/>
 		</dict>
 		<key>14292655225357D80056D569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1429269D2254390D0056D569</key>
 		<dict>
 			<key>primary</key>
 			<true/>
