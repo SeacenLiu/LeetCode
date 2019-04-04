@@ -99,6 +99,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>306. 累加数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>32. 最长有效括号.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -738,6 +743,16 @@
 			<true/>
 		</dict>
 		<key>142926AB2254504E0056D569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>142926C522559EBA0056D569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>142926D02255A1070056D569</key>
 		<dict>
 			<key>primary</key>
 			<true/>
