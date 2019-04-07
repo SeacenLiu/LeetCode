@@ -94,6 +94,7 @@
 		14D581982108CCBF006E932E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14D581972108CCBF006E932E /* main.cpp */; };
 		14D6003821829594009978E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14D6003721829594009978E3 /* main.cpp */; };
 		14DBD927225A41C7008FE0F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DBD926225A41C7008FE0F0 /* main.cpp */; };
+		14DBD933225A4290008FE0F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DBD932225A4290008FE0F0 /* main.cpp */; };
 		14DC84E720A04A4D00F651BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DC84E620A04A4D00F651BD /* main.cpp */; };
 		14DC84F220A0785000F651BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DC84F120A0785000F651BD /* main.cpp */; };
 		14DC84FF20A1D30400F651BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DC84FE20A1D30400F651BD /* main.cpp */; };
@@ -879,6 +880,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		14DBD92E225A4290008FE0F0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		14DC84E220A04A4D00F651BD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1206,6 +1216,8 @@
 		14D6003721829594009978E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14DBD924225A41C7008FE0F0 /* 5016. 删除最外层的括号 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5016. 删除最外层的括号"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DBD926225A41C7008FE0F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14DBD930225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5017. 从根到叶的二进制数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DBD932225A4290008FE0F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14DC84E420A04A4D00F651BD /* 找树左下角的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "找树左下角的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DC84E620A04A4D00F651BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14DC84EF20A0785000F651BD /* 删除与获得点数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "删除与获得点数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1832,6 +1844,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		14DBD921225A41C7008FE0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DBD92D225A4290008FE0F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2487,6 +2506,7 @@
 				142926AC2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */,
 				142926D12255A1070056D569 /* 306. 累加数 */,
 				14DBD924225A41C7008FE0F0 /* 5016. 删除最外层的括号 */,
+				14DBD930225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2870,9 +2890,18 @@
 		14DBD92B225A422A008FE0F0 /* Competition */ = {
 			isa = PBXGroup;
 			children = (
+				14DBD931225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */,
 				14DBD925225A41C7008FE0F0 /* 5016. 删除最外层的括号 */,
 			);
 			path = Competition;
+			sourceTree = "<group>";
+		};
+		14DBD931225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				14DBD932225A4290008FE0F0 /* main.cpp */,
+			);
+			path = "5017. 从根到叶的二进制数之和";
 			sourceTree = "<group>";
 		};
 		14DC84E520A04A4D00F651BD /* 找树左下角的值 */ = {
@@ -4459,6 +4488,23 @@
 			productReference = 14DBD924225A41C7008FE0F0 /* 5016. 删除最外层的括号 */;
 			productType = "com.apple.product-type.tool";
 		};
+		14DBD92F225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DBD934225A4290008FE0F0 /* Build configuration list for PBXNativeTarget "5017. 从根到叶的二进制数之和" */;
+			buildPhases = (
+				14DBD92C225A4290008FE0F0 /* Sources */,
+				14DBD92D225A4290008FE0F0 /* Frameworks */,
+				14DBD92E225A4290008FE0F0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5017. 从根到叶的二进制数之和";
+			productName = "5017. 从根到叶的二进制数之和";
+			productReference = 14DBD930225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */;
+			productType = "com.apple.product-type.tool";
+		};
 		14DC84E320A04A4D00F651BD /* 找树左下角的值 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14DC84EA20A04A4D00F651BD /* Build configuration list for PBXNativeTarget "找树左下角的值" */;
@@ -5097,6 +5143,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					14DBD92F225A4290008FE0F0 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					14DC84E320A04A4D00F651BD = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -5281,6 +5331,7 @@
 				142926AB2254504E0056D569 /* 357. 计算各个位数不同的数字个数 */,
 				142926D02255A1070056D569 /* 306. 累加数 */,
 				14DBD923225A41C7008FE0F0 /* 5016. 删除最外层的括号 */,
+				14DBD92F225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */,
 			);
 		};
 /* End PBXProject section */
@@ -5965,6 +6016,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14DBD927225A41C7008FE0F0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DBD92C225A4290008FE0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DBD933225A4290008FE0F0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8458,6 +8517,33 @@
 			};
 			name = Release;
 		};
+		14DBD935225A4290008FE0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14DBD936225A4290008FE0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		14DC84E820A04A4D00F651BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9628,6 +9714,15 @@
 			buildConfigurations = (
 				14DBD928225A41C7008FE0F0 /* Debug */,
 				14DBD929225A41C7008FE0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DBD934225A4290008FE0F0 /* Build configuration list for PBXNativeTarget "5017. 从根到叶的二进制数之和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DBD935225A4290008FE0F0 /* Debug */,
+				14DBD936225A4290008FE0F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

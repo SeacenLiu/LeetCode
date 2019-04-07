@@ -47,48 +47,43 @@
  S 是一个有效括号字符串
  */
 
-/**
- - 要用long
- - 溢出问题
- */
-
 #include <iostream>
-#include <vector>
-#include <cmath>
+#include "vector"
 using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
-
-// long!!!
-
 class Solution {
-private:
-    long res = 0;
-    int mod = 1000000007;
-    void f(TreeNode *root, int sum) {
-        if (root->left != nullptr)
-            f(root->left, (sum*2 + root->val)%mod);
-        if (root->right != nullptr)
-            f(root->right, (sum*2 + root->val)%mod);
-        if (root->left == nullptr && root->right == nullptr)
-            res = (res + sum*2 + root->val) % mod;
-    }
 public:
-    int sumRootToLeaf(TreeNode* root) {
-        res = 0;
-        f(root, 0);
-        return (int)res;
+    string removeOuterParentheses(string S) {
+        vector<int> stack;
+        vector<int> ignore(S.length(), 0);
+        for (int i = 0; i < S.length(); ++i) {
+            if (S[i] == '(') {
+                stack.push_back(i);
+            } else {
+                int leftIdx = stack.front();
+                stack.pop_back();
+                if (stack.empty()) {
+                    // 这对没用
+                    ignore[leftIdx] = 1;
+                    ignore[i] = 1;
+                }
+            }
+        }
+        string res;
+        for (int i = 0; i < S.length(); ++i) {
+            if (ignore[i] != 1) {
+                res.push_back(S[i]);
+            }
+        }
+        return res;
     }
 };
 
 int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
-    cout << (10^9 + 7) << endl;
+    Solution sol = Solution();
+    cout << sol.removeOuterParentheses("(()())(())") << endl; // "()()()"
+    cout << sol.removeOuterParentheses("(()())(())(()(()))") << endl; // "()()()()(())"
+    cout << sol.removeOuterParentheses("()()") << endl; // ""
     return 0;
 }
-
