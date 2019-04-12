@@ -149,6 +149,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>368. 最大整除子集.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>37. 解数独.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -743,6 +748,11 @@
 			<true/>
 		</dict>
 		<key>1413CB84225B45F00052E78A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1413CBC5225C9FFE0052E78A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

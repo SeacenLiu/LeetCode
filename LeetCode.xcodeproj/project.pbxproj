@@ -16,6 +16,7 @@
 		14134868224224A3004E2829 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14134867224224A3004E2829 /* main.cpp */; };
 		141348702242357E004E2829 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1413486F2242357E004E2829 /* main.cpp */; };
 		1413CB88225B45F00052E78A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1413CB87225B45F00052E78A /* main.cpp */; };
+		1413CBC9225C9FFE0052E78A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1413CBC8225C9FFE0052E78A /* main.cpp */; };
 		1418C42020B0021B006C1AF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1418C41F20B0021B006C1AF7 /* main.cpp */; };
 		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
@@ -190,6 +191,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1413CB83225B45F00052E78A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1413CBC4225C9FFE0052E78A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1083,6 +1093,8 @@
 		1413486F2242357E004E2829 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1413CB85225B45F00052E78A /* 309. 最佳买卖股票时机含冷冻期 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "309. 最佳买卖股票时机含冷冻期"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1413CB87225B45F00052E78A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1413CBC6225C9FFE0052E78A /* 368. 最大整除子集 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "368. 最大整除子集"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1413CBC8225C9FFE0052E78A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1418C41D20B0021B006C1AF7 /* 反转链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "反转链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1418C41F20B0021B006C1AF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1421E38A209FFAF900A4C208 /* 用队列实现栈 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "用队列实现栈"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1336,6 +1348,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1413CB82225B45F00052E78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1413CBC3225C9FFE0052E78A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2089,6 +2108,14 @@
 			path = "309. 最佳买卖股票时机含冷冻期";
 			sourceTree = "<group>";
 		};
+		1413CBC7225C9FFE0052E78A /* 368. 最大整除子集 */ = {
+			isa = PBXGroup;
+			children = (
+				1413CBC8225C9FFE0052E78A /* main.cpp */,
+			);
+			path = "368. 最大整除子集";
+			sourceTree = "<group>";
+		};
 		1418C41E20B0021B006C1AF7 /* 反转链表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2445,6 +2472,7 @@
 				142926D22255A1070056D569 /* 306. 累加数 */,
 				14DBD93C225ADAD3008FE0F0 /* 304. 二维区域和检索 - 矩阵不可变 */,
 				1413CB86225B45F00052E78A /* 309. 最佳买卖股票时机含冷冻期 */,
+				1413CBC7225C9FFE0052E78A /* 368. 最大整除子集 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2557,6 +2585,7 @@
 				14DBD930225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */,
 				14DBD93B225ADAD3008FE0F0 /* 304. 二维区域和检索 - 矩阵不可变 */,
 				1413CB85225B45F00052E78A /* 309. 最佳买卖股票时机含冷冻期 */,
+				1413CBC6225C9FFE0052E78A /* 368. 最大整除子集 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3252,6 +3281,23 @@
 			name = "309. 最佳买卖股票时机含冷冻期";
 			productName = "309. 最佳买卖股票时机含冷冻期";
 			productReference = 1413CB85225B45F00052E78A /* 309. 最佳买卖股票时机含冷冻期 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1413CBC5225C9FFE0052E78A /* 368. 最大整除子集 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1413CBCA225C9FFE0052E78A /* Build configuration list for PBXNativeTarget "368. 最大整除子集" */;
+			buildPhases = (
+				1413CBC2225C9FFE0052E78A /* Sources */,
+				1413CBC3225C9FFE0052E78A /* Frameworks */,
+				1413CBC4225C9FFE0052E78A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "368. 最大整除子集";
+			productName = "368. 最大整除子集";
+			productReference = 1413CBC6225C9FFE0052E78A /* 368. 最大整除子集 */;
 			productType = "com.apple.product-type.tool";
 		};
 		1418C41C20B0021B006C1AF7 /* 反转链表 */ = {
@@ -4931,6 +4977,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					1413CBC5225C9FFE0052E78A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					1418C41C20B0021B006C1AF7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -5434,6 +5484,7 @@
 				14DBD92F225A4290008FE0F0 /* 5017. 从根到叶的二进制数之和 */,
 				14DBD93A225ADAD3008FE0F0 /* 304. 二维区域和检索 - 矩阵不可变 */,
 				1413CB84225B45F00052E78A /* 309. 最佳买卖股票时机含冷冻期 */,
+				1413CBC5225C9FFE0052E78A /* 368. 最大整除子集 */,
 			);
 		};
 /* End PBXProject section */
@@ -5508,6 +5559,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1413CB88225B45F00052E78A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1413CBC2225C9FFE0052E78A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1413CBC9225C9FFE0052E78A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6517,6 +6576,33 @@
 			name = Debug;
 		};
 		1413CB8A225B45F00052E78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1413CBCB225C9FFE0052E78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1413CBCC225C9FFE0052E78A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -9193,6 +9279,15 @@
 			buildConfigurations = (
 				1413CB89225B45F00052E78A /* Debug */,
 				1413CB8A225B45F00052E78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1413CBCA225C9FFE0052E78A /* Build configuration list for PBXNativeTarget "368. 最大整除子集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1413CBCB225C9FFE0052E78A /* Debug */,
+				1413CBCC225C9FFE0052E78A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
