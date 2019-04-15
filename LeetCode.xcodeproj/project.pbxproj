@@ -89,6 +89,7 @@
 		14B0E7DF22432E8600E68B5B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14B0E7DE22432E8600E68B5B /* main.cpp */; };
 		14BDEDCE216E242500FCE2A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14BDEDCD216E242500FCE2A7 /* main.cpp */; };
 		14BE18C221AB762A00928300 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14BE18C121AB762A00928300 /* main.cpp */; };
+		14C940C1226095C4005B0AF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14C940C0226095C4005B0AF7 /* main.cpp */; };
 		14C9F20C211180AA00F5AD29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14C9F20B211180AA00F5AD29 /* main.cpp */; };
 		14C9F2172112B1D200F5AD29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14C9F2162112B1D200F5AD29 /* main.cpp */; };
 		14CB0E47210B6BF1005D8C45 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14CB0E46210B6BF1005D8C45 /* main.cpp */; };
@@ -838,6 +839,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		14C940BC226095C4005B0AF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		14C9F207211180AA00F5AD29 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1236,6 +1246,8 @@
 		14BDEDCD216E242500FCE2A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14BE18BF21AB762A00928300 /* 二叉搜索树的最近公共祖先 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "二叉搜索树的最近公共祖先"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BE18C121AB762A00928300 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14C940BE226095C4005B0AF7 /* 377. 组合总和 Ⅳ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "377. 组合总和 Ⅳ"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C940C0226095C4005B0AF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14C9F209211180AA00F5AD29 /* N皇后 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "N皇后"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C9F20B211180AA00F5AD29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14C9F2142112B1D100F5AD29 /* 二叉搜索树迭代器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "二叉搜索树迭代器"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1845,6 +1857,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		14BE18BC21AB762A00928300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C940BB226095C4005B0AF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2473,6 +2492,7 @@
 				14DBD93C225ADAD3008FE0F0 /* 304. 二维区域和检索 - 矩阵不可变 */,
 				1413CB86225B45F00052E78A /* 309. 最佳买卖股票时机含冷冻期 */,
 				1413CBC7225C9FFE0052E78A /* 368. 最大整除子集 */,
+				14C940BF226095C4005B0AF7 /* 377. 组合总和 Ⅳ */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2586,6 +2606,7 @@
 				14DBD93B225ADAD3008FE0F0 /* 304. 二维区域和检索 - 矩阵不可变 */,
 				1413CB85225B45F00052E78A /* 309. 最佳买卖股票时机含冷冻期 */,
 				1413CBC6225C9FFE0052E78A /* 368. 最大整除子集 */,
+				14C940BE226095C4005B0AF7 /* 377. 组合总和 Ⅳ */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2908,6 +2929,14 @@
 				14BE18C121AB762A00928300 /* main.cpp */,
 			);
 			path = "二叉搜索树的最近公共祖先";
+			sourceTree = "<group>";
+		};
+		14C940BF226095C4005B0AF7 /* 377. 组合总和 Ⅳ */ = {
+			isa = PBXGroup;
+			children = (
+				14C940C0226095C4005B0AF7 /* main.cpp */,
+			);
+			path = "377. 组合总和 Ⅳ";
 			sourceTree = "<group>";
 		};
 		14C9F20A211180AA00F5AD29 /* N皇后 */ = {
@@ -4490,6 +4519,23 @@
 			productReference = 14BE18BF21AB762A00928300 /* 二叉搜索树的最近公共祖先 */;
 			productType = "com.apple.product-type.tool";
 		};
+		14C940BD226095C4005B0AF7 /* 377. 组合总和 Ⅳ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C940C4226095C4005B0AF7 /* Build configuration list for PBXNativeTarget "377. 组合总和 Ⅳ" */;
+			buildPhases = (
+				14C940BA226095C4005B0AF7 /* Sources */,
+				14C940BB226095C4005B0AF7 /* Frameworks */,
+				14C940BC226095C4005B0AF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "377. 组合总和 Ⅳ";
+			productName = "377. 组合总和 Ⅳ";
+			productReference = 14C940BE226095C4005B0AF7 /* 377. 组合总和 Ⅳ */;
+			productType = "com.apple.product-type.tool";
+		};
 		14C9F208211180AA00F5AD29 /* N皇后 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14C9F20D211180AA00F5AD29 /* Build configuration list for PBXNativeTarget "N皇后" */;
@@ -5261,6 +5307,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					14C940BD226095C4005B0AF7 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					14C9F208211180AA00F5AD29 = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -5485,6 +5535,7 @@
 				14DBD93A225ADAD3008FE0F0 /* 304. 二维区域和检索 - 矩阵不可变 */,
 				1413CB84225B45F00052E78A /* 309. 最佳买卖股票时机含冷冻期 */,
 				1413CBC5225C9FFE0052E78A /* 368. 最大整除子集 */,
+				14C940BD226095C4005B0AF7 /* 377. 组合总和 Ⅳ */,
 			);
 		};
 /* End PBXProject section */
@@ -6129,6 +6180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14BE18C221AB762A00928300 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C940BA226095C4005B0AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C940C1226095C4005B0AF7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8551,6 +8610,33 @@
 			};
 			name = Release;
 		};
+		14C940C2226095C4005B0AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14C940C3226095C4005B0AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6426K9AWKV;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		14C9F20E211180AA00F5AD29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9927,6 +10013,15 @@
 			buildConfigurations = (
 				14BE18C321AB762A00928300 /* Debug */,
 				14BE18C421AB762A00928300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C940C4226095C4005B0AF7 /* Build configuration list for PBXNativeTarget "377. 组合总和 Ⅳ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C940C2226095C4005B0AF7 /* Debug */,
+				14C940C3226095C4005B0AF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

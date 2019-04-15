@@ -159,6 +159,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>377. 组合总和 Ⅳ.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>52. N皇后 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -858,6 +863,11 @@
 			<true/>
 		</dict>
 		<key>14B0E7DB22432E8600E68B5B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14C940BD226095C4005B0AF7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
