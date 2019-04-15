@@ -229,6 +229,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>91. 解码方法.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
 		<key>93. 复原IP地址.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -853,6 +858,11 @@
 			<true/>
 		</dict>
 		<key>14A9F031210FEA9500901702</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14AA72102264AAFD00BBDD4A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
