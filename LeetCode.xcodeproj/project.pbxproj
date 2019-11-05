@@ -46,6 +46,7 @@
 		146094222239D5A1003C9364 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146094212239D5A1003C9364 /* main.cpp */; };
 		1465A18A2188963D00B45CDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1465A1892188963D00B45CDC /* main.cpp */; };
 		146FFDE923710949003991D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146FFDE823710949003991D5 /* main.cpp */; };
+		146FFDF423711CC6003991D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146FFDF323711CC6003991D5 /* main.cpp */; };
 		1473761F21154715004523D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1473761E21154715004523D7 /* main.cpp */; };
 		1473762A21154A72004523D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1473762921154A72004523D7 /* main.cpp */; };
 		14761E72223675A9005E6E2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14761E71223675A9005E6E2A /* main.cpp */; };
@@ -464,6 +465,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		146FFDE423710949003991D5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		146FFDEF23711CC6003991D5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1183,6 +1193,8 @@
 		1465A1892188963D00B45CDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		146FFDE623710949003991D5 /* 27. 移除元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "27. 移除元素"; sourceTree = BUILT_PRODUCTS_DIR; };
 		146FFDE823710949003991D5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		146FFDF123711CC6003991D5 /* 28. 实现 strStr() */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "28. 实现 strStr()"; sourceTree = BUILT_PRODUCTS_DIR; };
+		146FFDF323711CC6003991D5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1473761C21154715004523D7 /* 组合 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "组合"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1473761E21154715004523D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1473762721154A72004523D7 /* 第k个排列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第k个排列"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1594,6 +1606,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		146FFDE323710949003991D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146FFDEE23711CC6003991D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2405,6 +2424,14 @@
 			path = "27. 移除元素";
 			sourceTree = "<group>";
 		};
+		146FFDF223711CC6003991D5 /* 28. 实现 strStr() */ = {
+			isa = PBXGroup;
+			children = (
+				146FFDF323711CC6003991D5 /* main.cpp */,
+			);
+			path = "28. 实现 strStr()";
+			sourceTree = "<group>";
+		};
 		1473761D21154715004523D7 /* 组合 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2541,6 +2568,7 @@
 				14C940BF226095C4005B0AF7 /* 377. 组合总和 Ⅳ */,
 				14AA72122264AAFD00BBDD4A /* 91. 解码方法 */,
 				146FFDE723710949003991D5 /* 27. 移除元素 */,
+				146FFDF223711CC6003991D5 /* 28. 实现 strStr() */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2657,6 +2685,7 @@
 				14C940BE226095C4005B0AF7 /* 377. 组合总和 Ⅳ */,
 				14AA72112264AAFD00BBDD4A /* 91. 解码方法 */,
 				146FFDE623710949003991D5 /* 27. 移除元素 */,
+				146FFDF123711CC6003991D5 /* 28. 实现 strStr() */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3878,6 +3907,23 @@
 			name = "27. 移除元素";
 			productName = "27. 移除元素";
 			productReference = 146FFDE623710949003991D5 /* 27. 移除元素 */;
+			productType = "com.apple.product-type.tool";
+		};
+		146FFDF023711CC6003991D5 /* 28. 实现 strStr() */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146FFDF523711CC6003991D5 /* Build configuration list for PBXNativeTarget "28. 实现 strStr()" */;
+			buildPhases = (
+				146FFDED23711CC6003991D5 /* Sources */,
+				146FFDEE23711CC6003991D5 /* Frameworks */,
+				146FFDEF23711CC6003991D5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "28. 实现 strStr()";
+			productName = "28. 实现 strStr()";
+			productReference = 146FFDF123711CC6003991D5 /* 28. 实现 strStr() */;
 			productType = "com.apple.product-type.tool";
 		};
 		1473761B21154715004523D7 /* 组合 */ = {
@@ -5235,6 +5281,10 @@
 						CreatedOnToolsVersion = 11.0;
 						ProvisioningStyle = Automatic;
 					};
+					146FFDF023711CC6003991D5 = {
+						CreatedOnToolsVersion = 11.0;
+						ProvisioningStyle = Automatic;
+					};
 					1473761B21154715004523D7 = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
@@ -5638,6 +5688,7 @@
 				14C940BD226095C4005B0AF7 /* 377. 组合总和 Ⅳ */,
 				14AA72102264AAFD00BBDD4A /* 91. 解码方法 */,
 				146FFDE523710949003991D5 /* 27. 移除元素 */,
+				146FFDF023711CC6003991D5 /* 28. 实现 strStr() */,
 			);
 		};
 /* End PBXProject section */
@@ -5952,6 +6003,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				146FFDE923710949003991D5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146FFDED23711CC6003991D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146FFDF423711CC6003991D5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7540,6 +7599,29 @@
 			name = Debug;
 		};
 		146FFDEB23710949003991D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		146FFDF623711CC6003991D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		146FFDF723711CC6003991D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -9803,6 +9885,15 @@
 			buildConfigurations = (
 				146FFDEA23710949003991D5 /* Debug */,
 				146FFDEB23710949003991D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146FFDF523711CC6003991D5 /* Build configuration list for PBXNativeTarget "28. 实现 strStr()" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146FFDF623711CC6003991D5 /* Debug */,
+				146FFDF723711CC6003991D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
