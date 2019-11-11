@@ -209,6 +209,11 @@
 			<key>orderHint</key>
 			<integer>33</integer>
 		</dict>
+		<key>69. x 的平方根.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
 		<key>7. 整数反转.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -888,6 +893,11 @@
 			<true/>
 		</dict>
 		<key>1489E7CE237863F70025AF5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1489E80223797AC70025AF5F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
