@@ -234,6 +234,11 @@
 			<key>orderHint</key>
 			<integer>75</integer>
 		</dict>
+		<key>83. 删除排序链表中的重复元素.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
 		<key>842. 将数组拆分成斐波那契序列.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -958,6 +963,11 @@
 			<true/>
 		</dict>
 		<key>14C940BD226095C4005B0AF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14CB99652379873E000DA451</key>
 		<dict>
 			<key>primary</key>
 			<true/>
