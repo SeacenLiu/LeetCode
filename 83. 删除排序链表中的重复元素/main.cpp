@@ -34,38 +34,53 @@ struct ListNode {
 };
 
 class Solution {
-private:
-    ListNode* deleteNode(ListNode *head, ListNode *preNode) {
-        if (nullptr == preNode) {
-            return head->next;
-        }
-        ListNode *needDelete = preNode->next;
-        if (needDelete == nullptr) {
-            return head;
-        }
-        preNode->next = needDelete->next;
-        delete needDelete;
-        return head;
-    }
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        ListNode *pre = nullptr;
         ListNode *cur = head;
-        if (cur == nullptr) {
-            return head;
-        }
-        while (cur) {
-            if (pre && cur && pre->val == cur->val) {
-                head = deleteNode(head, pre);
-                cur = pre->next;
+        while (cur != nullptr && cur->next != nullptr) {
+            if (cur->next->val == cur->val) {
+                cur->next = cur->next->next;
             } else {
-                pre = cur;
                 cur = cur->next;
             }
         }
         return head;
     }
 };
+
+//class Solution {
+//private:
+//    ListNode* deleteNode(ListNode *head, ListNode *preNode) {
+//        if (nullptr == preNode) {
+//            return head->next;
+//        }
+//        ListNode *needDelete = preNode->next;
+//        if (needDelete == nullptr) {
+//            return head;
+//        }
+//        preNode->next = needDelete->next;
+//        delete needDelete;
+//        return head;
+//    }
+//public:
+//    ListNode* deleteDuplicates(ListNode* head) {
+//        ListNode *pre = nullptr;
+//        ListNode *cur = head;
+//        if (cur == nullptr) {
+//            return head;
+//        }
+//        while (cur) {
+//            if (pre && cur && pre->val == cur->val) {
+//                head = deleteNode(head, pre);
+//                cur = pre->next;
+//            } else {
+//                pre = cur;
+//                cur = cur->next;
+//            }
+//        }
+//        return head;
+//    }
+//};
 
 void test(vector<int> arr) {
     cout << "===============================" << endl;
