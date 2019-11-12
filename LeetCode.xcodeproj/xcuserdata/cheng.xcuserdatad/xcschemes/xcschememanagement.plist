@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>36</integer>
 		</dict>
+		<key>101. 对称二叉树.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
 		<key>104. 二叉树的最大深度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -848,6 +853,11 @@
 			<true/>
 		</dict>
 		<key>142926D02255A1070056D569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>143F090A237AA62300093C46</key>
 		<dict>
 			<key>primary</key>
 			<true/>
