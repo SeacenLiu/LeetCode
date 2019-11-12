@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>100. 相同的树.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
 		<key>104. 二叉树的最大深度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -968,6 +973,11 @@
 			<true/>
 		</dict>
 		<key>14CB99652379873E000DA451</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14CB997B237A5E19000DA451</key>
 		<dict>
 			<key>primary</key>
 			<true/>
