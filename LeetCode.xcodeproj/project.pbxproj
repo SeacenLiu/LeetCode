@@ -22,6 +22,7 @@
 		142019952372F61600B83158 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142019942372F61600B83158 /* main.cpp */; };
 		1421E38D209FFAF900A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E38C209FFAF900A4C208 /* main.cpp */; };
 		1421E39820A0021C00A4C208 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1421E39720A0021C00A4C208 /* main.cpp */; };
+		1426E6B0237B8EE200B5B1DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1426E6AF237B8EE200B5B1DD /* main.cpp */; };
 		14292659225357D90056D569 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14292658225357D90056D569 /* main.cpp */; };
 		142926A722544FC30056D569 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142926A02254390E0056D569 /* main.cpp */; };
 		142926AF2254504E0056D569 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 142926AE2254504E0056D569 /* main.cpp */; };
@@ -259,6 +260,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1421E39320A0021C00A4C208 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1426E6AB237B8EE200B5B1DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1245,6 +1255,8 @@
 		1421E38C209FFAF900A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1421E39520A0021C00A4C208 /* 填充同一层的兄弟节点 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "填充同一层的兄弟节点 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1421E39720A0021C00A4C208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1426E6AD237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "108. 将有序数组转换为二叉搜索树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1426E6AF237B8EE200B5B1DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14292656225357D80056D569 /* 93. 复原IP地址 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "93. 复原IP地址"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14292658225357D90056D569 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1429269E2254390E0056D569 /* 211. 添加与搜索单词 - 数据结构设计 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "211. 添加与搜索单词 - 数据结构设计"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1558,6 +1570,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1421E39220A0021C00A4C208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1426E6AA237B8EE200B5B1DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2422,6 +2441,14 @@
 			path = "填充同一层的兄弟节点 II";
 			sourceTree = "<group>";
 		};
+		1426E6AE237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */ = {
+			isa = PBXGroup;
+			children = (
+				1426E6AF237B8EE200B5B1DD /* main.cpp */,
+			);
+			path = "108. 将有序数组转换为二叉搜索树";
+			sourceTree = "<group>";
+		};
 		14292657225357D90056D569 /* 93. 复原IP地址 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2801,6 +2828,7 @@
 				14CB997D237A5E19000DA451 /* 100. 相同的树 */,
 				143F090C237AA62300093C46 /* 101. 对称二叉树 */,
 				143F0917237AB15000093C46 /* 107. 二叉树的层次遍历 II */,
+				1426E6AE237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2928,6 +2956,7 @@
 				14CB997C237A5E19000DA451 /* 100. 相同的树 */,
 				143F090B237AA62300093C46 /* 101. 对称二叉树 */,
 				143F0916237AB15000093C46 /* 107. 二叉树的层次遍历 II */,
+				1426E6AD237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3789,6 +3818,23 @@
 			name = "填充同一层的兄弟节点 II";
 			productName = "填充同一层的兄弟节点 II";
 			productReference = 1421E39520A0021C00A4C208 /* 填充同一层的兄弟节点 II */;
+			productType = "com.apple.product-type.tool";
+		};
+		1426E6AC237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1426E6B3237B8EE200B5B1DD /* Build configuration list for PBXNativeTarget "108. 将有序数组转换为二叉搜索树" */;
+			buildPhases = (
+				1426E6A9237B8EE200B5B1DD /* Sources */,
+				1426E6AA237B8EE200B5B1DD /* Frameworks */,
+				1426E6AB237B8EE200B5B1DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "108. 将有序数组转换为二叉搜索树";
+			productName = "108. 将有序数组转换为二叉搜索树";
+			productReference = 1426E6AD237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */;
 			productType = "com.apple.product-type.tool";
 		};
 		14292655225357D80056D569 /* 93. 复原IP地址 */ = {
@@ -5645,6 +5691,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					1426E6AC237B8EE200B5B1DD = {
+						CreatedOnToolsVersion = 11.0;
+						ProvisioningStyle = Automatic;
+					};
 					14292655225357D80056D569 = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -6199,6 +6249,7 @@
 				14CB997B237A5E19000DA451 /* 100. 相同的树 */,
 				143F090A237AA62300093C46 /* 101. 对称二叉树 */,
 				143F0915237AB15000093C46 /* 107. 二叉树的层次遍历 II */,
+				1426E6AC237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */,
 			);
 		};
 /* End PBXProject section */
@@ -6321,6 +6372,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1421E39820A0021C00A4C208 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1426E6A9237B8EE200B5B1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1426E6B0237B8EE200B5B1DD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7531,6 +7590,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1426E6B1237B8EE200B5B1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1426E6B2237B8EE200B5B1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -10489,6 +10571,15 @@
 			buildConfigurations = (
 				1421E39A20A0021C00A4C208 /* Debug */,
 				1421E39B20A0021C00A4C208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1426E6B3237B8EE200B5B1DD /* Build configuration list for PBXNativeTarget "108. 将有序数组转换为二叉搜索树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1426E6B1237B8EE200B5B1DD /* Debug */,
+				1426E6B2237B8EE200B5B1DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -89,5 +89,53 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AE19ED4-2648-454C-8A1F-FF9C128FEB07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "108. &#x5c06;&#x6709;&#x5e8f;&#x6570;&#x7ec4;&#x8f6c;&#x6362;&#x4e3a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "test(arr)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D9DCD91-C7EB-4F7F-BA70-165F4CFC5BB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "108. &#x5c06;&#x6709;&#x5e8f;&#x6570;&#x7ec4;&#x8f6c;&#x6362;&#x4e3a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "core(left, right, nums)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A815960C-9031-4CE2-A7FD-6FD944F332AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "108. &#x5c06;&#x6709;&#x5e8f;&#x6570;&#x7ec4;&#x8f6c;&#x6362;&#x4e3a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "core(left, right, nums)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

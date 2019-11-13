@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>38</integer>
 		</dict>
+		<key>108. 将有序数组转换为二叉搜索树.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
 		<key>11. 盛最多水的容器.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -833,6 +838,11 @@
 			<true/>
 		</dict>
 		<key>142019912372F61600B83158</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1426E6AC237B8EE200B5B1DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
