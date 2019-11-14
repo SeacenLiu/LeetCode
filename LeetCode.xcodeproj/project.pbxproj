@@ -51,6 +51,7 @@
 		146094222239D5A1003C9364 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146094212239D5A1003C9364 /* main.cpp */; };
 		1462969C237C2E8E0013555C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1462969B237C2E8E0013555C /* main.cpp */; };
 		146296A7237CE4A10013555C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146296A6237CE4A10013555C /* main.cpp */; };
+		146296B2237CEF890013555C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146296B1237CEF890013555C /* main.cpp */; };
 		1465A18A2188963D00B45CDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1465A1892188963D00B45CDC /* main.cpp */; };
 		146FFDE923710949003991D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146FFDE823710949003991D5 /* main.cpp */; };
 		146FFDF423711CC6003991D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146FFDF323711CC6003991D5 /* main.cpp */; };
@@ -523,6 +524,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		146296A2237CE4A10013555C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		146296AD237CEF890013555C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1333,6 +1343,8 @@
 		1462969B237C2E8E0013555C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		146296A4237CE4A10013555C /* 111. 二叉树的最小深度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "111. 二叉树的最小深度"; sourceTree = BUILT_PRODUCTS_DIR; };
 		146296A6237CE4A10013555C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		146296AF237CEF890013555C /* 112. 路径总和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "112. 路径总和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		146296B1237CEF890013555C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1465A1872188963D00B45CDC /* 两个排序数组的中位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "两个排序数组的中位数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1465A1892188963D00B45CDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		146FFDE623710949003991D5 /* 27. 移除元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "27. 移除元素"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1797,6 +1809,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		146296A1237CE4A10013555C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146296AC237CEF890013555C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2711,6 +2730,14 @@
 			path = "111. 二叉树的最小深度";
 			sourceTree = "<group>";
 		};
+		146296B0237CEF890013555C /* 112. 路径总和 */ = {
+			isa = PBXGroup;
+			children = (
+				146296B1237CEF890013555C /* main.cpp */,
+			);
+			path = "112. 路径总和";
+			sourceTree = "<group>";
+		};
 		1465A1882188963D00B45CDC /* 两个排序数组的中位数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2885,6 +2912,7 @@
 				1426E6AE237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */,
 				1462969A237C2E8E0013555C /* 110. 平衡二叉树 */,
 				146296A5237CE4A10013555C /* 111. 二叉树的最小深度 */,
+				146296B0237CEF890013555C /* 112. 路径总和 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -3015,6 +3043,7 @@
 				1426E6AD237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */,
 				14629699237C2E8E0013555C /* 110. 平衡二叉树 */,
 				146296A4237CE4A10013555C /* 111. 二叉树的最小深度 */,
+				146296AF237CEF890013555C /* 112. 路径总和 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4369,6 +4398,23 @@
 			name = "111. 二叉树的最小深度";
 			productName = "111. 二叉树的最小深度";
 			productReference = 146296A4237CE4A10013555C /* 111. 二叉树的最小深度 */;
+			productType = "com.apple.product-type.tool";
+		};
+		146296AE237CEF890013555C /* 112. 路径总和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146296B3237CEF890013555C /* Build configuration list for PBXNativeTarget "112. 路径总和" */;
+			buildPhases = (
+				146296AB237CEF890013555C /* Sources */,
+				146296AC237CEF890013555C /* Frameworks */,
+				146296AD237CEF890013555C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "112. 路径总和";
+			productName = "112. 路径总和";
+			productReference = 146296AF237CEF890013555C /* 112. 路径总和 */;
 			productType = "com.apple.product-type.tool";
 		};
 		1465A1862188963D00B45CDC /* 两个排序数组的中位数 */ = {
@@ -5899,6 +5945,10 @@
 						CreatedOnToolsVersion = 11.0;
 						ProvisioningStyle = Automatic;
 					};
+					146296AE237CEF890013555C = {
+						CreatedOnToolsVersion = 11.0;
+						ProvisioningStyle = Automatic;
+					};
 					1465A1862188963D00B45CDC = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -6352,6 +6402,7 @@
 				1426E6AC237B8EE200B5B1DD /* 108. 将有序数组转换为二叉搜索树 */,
 				14629698237C2E8E0013555C /* 110. 平衡二叉树 */,
 				146296A3237CE4A10013555C /* 111. 二叉树的最小深度 */,
+				146296AE237CEF890013555C /* 112. 路径总和 */,
 			);
 		};
 /* End PBXProject section */
@@ -6706,6 +6757,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				146296A7237CE4A10013555C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146296AB237CEF890013555C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146296B2237CEF890013555C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8477,6 +8536,29 @@
 			name = Debug;
 		};
 		146296A9237CE4A10013555C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		146296B4237CEF890013555C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		146296B5237CEF890013555C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -10996,6 +11078,15 @@
 			buildConfigurations = (
 				146296A8237CE4A10013555C /* Debug */,
 				146296A9237CE4A10013555C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146296B3237CEF890013555C /* Build configuration list for PBXNativeTarget "112. 路径总和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146296B4237CEF890013555C /* Debug */,
+				146296B5237CEF890013555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
