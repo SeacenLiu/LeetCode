@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>43</integer>
 		</dict>
+		<key>119. 杨辉三角 II.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
 		<key>124. 二叉树中的最大路径和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -998,6 +1003,11 @@
 			<true/>
 		</dict>
 		<key>14A0A77F237EBB4000CE32A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A0A78C237EC31F00CE32A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
