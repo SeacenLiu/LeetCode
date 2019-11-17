@@ -64,6 +64,11 @@
 			<key>orderHint</key>
 			<integer>59</integer>
 		</dict>
+		<key>125. 验证回文串.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
 		<key>13. 罗马数字转整数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -1008,6 +1013,11 @@
 			<true/>
 		</dict>
 		<key>14A0A78C237EC31F00CE32A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A0A79D2380041800CE32A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
