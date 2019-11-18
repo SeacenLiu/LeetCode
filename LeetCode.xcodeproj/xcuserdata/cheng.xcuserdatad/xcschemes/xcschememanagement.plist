@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>68</integer>
 		</dict>
+		<key>238. 除自身以外数组的乘积.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
 		<key>26. 删除排序数组中的重复项.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -1038,6 +1043,11 @@
 			<true/>
 		</dict>
 		<key>14A0A7B323826D1200CE32A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A0A7BE23827BE200CE32A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

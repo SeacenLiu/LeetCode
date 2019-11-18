@@ -93,6 +93,7 @@
 		14A0A7A12380041800CE32A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A0A7A02380041800CE32A7 /* main.cpp */; };
 		14A0A7AC2382485F00CE32A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A0A7AB2382485F00CE32A7 /* main.cpp */; };
 		14A0A7B723826D1200CE32A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A0A7B623826D1200CE32A7 /* main.cpp */; };
+		14A0A7C223827BE200CE32A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A0A7C123827BE200CE32A7 /* main.cpp */; };
 		14A7474222446BD100916B9F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A7474122446BD100916B9F /* main.cpp */; };
 		14A7474D2244BE0F00916B9F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A7474C2244BE0F00916B9F /* main.cpp */; };
 		14A747B32248A49300916B9F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A747B22248A49300916B9F /* main.cpp */; };
@@ -897,6 +898,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		14A0A7BD23827BE200CE32A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		14A7473D22446BD100916B9F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1474,6 +1484,8 @@
 		14A0A7AB2382485F00CE32A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14A0A7B423826D1200CE32A7 /* 217. 存在重复元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "217. 存在重复元素"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A0A7B623826D1200CE32A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14A0A7BF23827BE200CE32A7 /* 238. 除自身以外数组的乘积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "238. 除自身以外数组的乘积"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A0A7C123827BE200CE32A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14A7473F22446BD100916B9F /* 32. 最长有效括号 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "32. 最长有效括号"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A7474122446BD100916B9F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14A7474A2244BE0F00916B9F /* 85. 最大矩形 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "85. 最大矩形"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2149,6 +2161,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		14A0A7B123826D1200CE32A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A0A7BC23827BE200CE32A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3013,6 +3032,7 @@
 				14A0A79F2380041800CE32A7 /* 125. 验证回文串 */,
 				14A0A7AA2382485F00CE32A7 /* 167. 两数之和 II - 输入有序数组 */,
 				14A0A7B523826D1200CE32A7 /* 217. 存在重复元素 */,
+				14A0A7C023827BE200CE32A7 /* 238. 除自身以外数组的乘积 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -3149,6 +3169,7 @@
 				14A0A79E2380041800CE32A7 /* 125. 验证回文串 */,
 				14A0A7A92382485F00CE32A7 /* 167. 两数之和 II - 输入有序数组 */,
 				14A0A7B423826D1200CE32A7 /* 217. 存在重复元素 */,
+				14A0A7BF23827BE200CE32A7 /* 238. 除自身以外数组的乘积 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3423,6 +3444,14 @@
 				14A0A7B623826D1200CE32A7 /* main.cpp */,
 			);
 			path = "217. 存在重复元素";
+			sourceTree = "<group>";
+		};
+		14A0A7C023827BE200CE32A7 /* 238. 除自身以外数组的乘积 */ = {
+			isa = PBXGroup;
+			children = (
+				14A0A7C123827BE200CE32A7 /* main.cpp */,
+			);
+			path = "238. 除自身以外数组的乘积";
 			sourceTree = "<group>";
 		};
 		14A7474022446BD100916B9F /* 32. 最长有效括号 */ = {
@@ -5225,6 +5254,23 @@
 			productReference = 14A0A7B423826D1200CE32A7 /* 217. 存在重复元素 */;
 			productType = "com.apple.product-type.tool";
 		};
+		14A0A7BE23827BE200CE32A7 /* 238. 除自身以外数组的乘积 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A0A7C323827BE200CE32A7 /* Build configuration list for PBXNativeTarget "238. 除自身以外数组的乘积" */;
+			buildPhases = (
+				14A0A7BB23827BE200CE32A7 /* Sources */,
+				14A0A7BC23827BE200CE32A7 /* Frameworks */,
+				14A0A7BD23827BE200CE32A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "238. 除自身以外数组的乘积";
+			productName = "238. 除自身以外数组的乘积";
+			productReference = 14A0A7BF23827BE200CE32A7 /* 238. 除自身以外数组的乘积 */;
+			productType = "com.apple.product-type.tool";
+		};
 		14A7473E22446BD100916B9F /* 32. 最长有效括号 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14A7474522446BD100916B9F /* Build configuration list for PBXNativeTarget "32. 最长有效括号" */;
@@ -6335,6 +6381,10 @@
 						CreatedOnToolsVersion = 11.0;
 						ProvisioningStyle = Automatic;
 					};
+					14A0A7BE23827BE200CE32A7 = {
+						CreatedOnToolsVersion = 11.0;
+						ProvisioningStyle = Automatic;
+					};
 					14A7473E22446BD100916B9F = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -6658,6 +6708,7 @@
 				14A0A79D2380041800CE32A7 /* 125. 验证回文串 */,
 				14A0A7A82382485F00CE32A7 /* 167. 两数之和 II - 输入有序数组 */,
 				14A0A7B323826D1200CE32A7 /* 217. 存在重复元素 */,
+				14A0A7BE23827BE200CE32A7 /* 238. 除自身以外数组的乘积 */,
 			);
 		};
 /* End PBXProject section */
@@ -7334,6 +7385,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A0A7B723826D1200CE32A7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A0A7BB23827BE200CE32A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A0A7C223827BE200CE32A7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9936,6 +9995,29 @@
 			};
 			name = Release;
 		};
+		14A0A7C423827BE200CE32A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14A0A7C523827BE200CE32A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		14A7474322446BD100916B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -11857,6 +11939,15 @@
 			buildConfigurations = (
 				14A0A7B923826D1200CE32A7 /* Debug */,
 				14A0A7BA23826D1200CE32A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A0A7C323827BE200CE32A7 /* Build configuration list for PBXNativeTarget "238. 除自身以外数组的乘积" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A0A7C423827BE200CE32A7 /* Debug */,
+				14A0A7C523827BE200CE32A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
