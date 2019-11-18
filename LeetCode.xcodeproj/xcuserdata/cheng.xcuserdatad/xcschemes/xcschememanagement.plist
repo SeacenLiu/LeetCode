@@ -124,6 +124,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>217. 存在重复元素.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
 		<key>223. 矩形面积.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -1028,6 +1033,11 @@
 			<true/>
 		</dict>
 		<key>14A0A7A82382485F00CE32A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14A0A7B323826D1200CE32A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
