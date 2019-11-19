@@ -57,6 +57,7 @@
 		146FFDF423711CC6003991D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 146FFDF323711CC6003991D5 /* main.cpp */; };
 		1473761F21154715004523D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1473761E21154715004523D7 /* main.cpp */; };
 		1473762A21154A72004523D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1473762921154A72004523D7 /* main.cpp */; };
+		1475DB5A2383819100AAA12B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1475DB592383819100AAA12B /* main.cpp */; };
 		14761E72223675A9005E6E2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14761E71223675A9005E6E2A /* main.cpp */; };
 		14773BD120934638006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BD020934638006242C6 /* main.cpp */; };
 		14773BDE20934647006242C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14773BDD20934647006242C6 /* main.cpp */; };
@@ -584,6 +585,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1473762521154A72004523D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1475DB552383819100AAA12B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1415,6 +1425,8 @@
 		1473761E21154715004523D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1473762721154A72004523D7 /* 第k个排列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第k个排列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1473762921154A72004523D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1475DB572383819100AAA12B /* 292. Nim 游戏 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "292. Nim 游戏"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1475DB592383819100AAA12B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14761E6F223675A9005E6E2A /* 160. 相交链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "160. 相交链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14761E71223675A9005E6E2A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14773BCD20934638006242C6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1923,6 +1935,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1473762421154A72004523D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1475DB542383819100AAA12B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2892,6 +2911,14 @@
 			path = "第k个排列";
 			sourceTree = "<group>";
 		};
+		1475DB582383819100AAA12B /* 292. Nim 游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				1475DB592383819100AAA12B /* main.cpp */,
+			);
+			path = "292. Nim 游戏";
+			sourceTree = "<group>";
+		};
 		14761E70223675A9005E6E2A /* 160. 相交链表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3033,6 +3060,7 @@
 				14A0A7AA2382485F00CE32A7 /* 167. 两数之和 II - 输入有序数组 */,
 				14A0A7B523826D1200CE32A7 /* 217. 存在重复元素 */,
 				14A0A7C023827BE200CE32A7 /* 238. 除自身以外数组的乘积 */,
+				1475DB582383819100AAA12B /* 292. Nim 游戏 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -3170,6 +3198,7 @@
 				14A0A7A92382485F00CE32A7 /* 167. 两数之和 II - 输入有序数组 */,
 				14A0A7B423826D1200CE32A7 /* 217. 存在重复元素 */,
 				14A0A7BF23827BE200CE32A7 /* 238. 除自身以外数组的乘积 */,
+				1475DB572383819100AAA12B /* 292. Nim 游戏 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4674,6 +4703,23 @@
 			name = "第k个排列";
 			productName = "第k个排列";
 			productReference = 1473762721154A72004523D7 /* 第k个排列 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1475DB562383819100AAA12B /* 292. Nim 游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1475DB5D2383819100AAA12B /* Build configuration list for PBXNativeTarget "292. Nim 游戏" */;
+			buildPhases = (
+				1475DB532383819100AAA12B /* Sources */,
+				1475DB542383819100AAA12B /* Frameworks */,
+				1475DB552383819100AAA12B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "292. Nim 游戏";
+			productName = "292. Nim 游戏";
+			productReference = 1475DB572383819100AAA12B /* 292. Nim 游戏 */;
 			productType = "com.apple.product-type.tool";
 		};
 		14761E6E223675A9005E6E2A /* 160. 相交链表 */ = {
@@ -6245,6 +6291,10 @@
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
+					1475DB562383819100AAA12B = {
+						CreatedOnToolsVersion = 11.0;
+						ProvisioningStyle = Automatic;
+					};
 					14761E6E223675A9005E6E2A = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -6709,6 +6759,7 @@
 				14A0A7A82382485F00CE32A7 /* 167. 两数之和 II - 输入有序数组 */,
 				14A0A7B323826D1200CE32A7 /* 217. 存在重复元素 */,
 				14A0A7BE23827BE200CE32A7 /* 238. 除自身以外数组的乘积 */,
+				1475DB562383819100AAA12B /* 292. Nim 游戏 */,
 			);
 		};
 /* End PBXProject section */
@@ -7111,6 +7162,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1473762A21154A72004523D7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1475DB532383819100AAA12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1475DB5A2383819100AAA12B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9050,6 +9109,29 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6426K9AWKV;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1475DB5B2383819100AAA12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1475DB5C2383819100AAA12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -11624,6 +11706,15 @@
 			buildConfigurations = (
 				1473762C21154A72004523D7 /* Debug */,
 				1473762D21154A72004523D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1475DB5D2383819100AAA12B /* Build configuration list for PBXNativeTarget "292. Nim 游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1475DB5B2383819100AAA12B /* Debug */,
+				1475DB5C2383819100AAA12B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
