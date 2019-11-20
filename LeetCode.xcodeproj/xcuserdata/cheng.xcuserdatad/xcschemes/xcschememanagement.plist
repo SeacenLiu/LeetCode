@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>68</integer>
 		</dict>
+		<key>231. 2的幂.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
 		<key>237. 删除链表中的节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -988,6 +993,11 @@
 			<true/>
 		</dict>
 		<key>1475DB772384EA4E00AAA12B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1475DB82238523A400AAA12B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
