@@ -224,6 +224,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>344. 反转字符串.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>51</integer>
+		</dict>
 		<key>35. 搜索插入位置.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -968,6 +973,11 @@
 			<true/>
 		</dict>
 		<key>1475DB612383C71900AAA12B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1475DB6C238419EE00AAA12B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
