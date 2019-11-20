@@ -269,6 +269,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>557. 反转字符串中的单词 III.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
 		<key>58. 最后一个单词的长度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -978,6 +983,11 @@
 			<true/>
 		</dict>
 		<key>1475DB6C238419EE00AAA12B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1475DB772384EA4E00AAA12B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
