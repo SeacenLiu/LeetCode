@@ -204,6 +204,11 @@
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
+		<key>31. 下一个排列.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>54</integer>
+		</dict>
 		<key>32. 最长有效括号.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -998,6 +1003,11 @@
 			<true/>
 		</dict>
 		<key>1475DB82238523A400AAA12B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1475DB8D23861C9D00AAA12B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
