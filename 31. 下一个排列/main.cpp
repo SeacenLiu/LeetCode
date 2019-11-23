@@ -27,6 +27,10 @@
 #include <vector>
 using namespace std;
 
+/**
+ 官方解题：
+ https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-by-leetcode/
+ */
 class Solution {
 private:
     void reverse(vector<int> &nums, int start) {
