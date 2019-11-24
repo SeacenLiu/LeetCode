@@ -229,6 +229,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>34. 在排序数组中查找元素的第一个和最后一个位置.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>55</integer>
+		</dict>
 		<key>343. 整数拆分.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -1008,6 +1013,11 @@
 			<true/>
 		</dict>
 		<key>1475DB8D23861C9D00AAA12B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1475DB98238A7A4600AAA12B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
