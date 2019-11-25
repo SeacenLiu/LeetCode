@@ -274,6 +274,11 @@
 			<key>orderHint</key>
 			<integer>29</integer>
 		</dict>
+		<key>49. 字母异位词分组.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>56</integer>
+		</dict>
 		<key>52. N皇后 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -1018,6 +1023,11 @@
 			<true/>
 		</dict>
 		<key>1475DB98238A7A4600AAA12B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1475DBA3238BBC0800AAA12B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
