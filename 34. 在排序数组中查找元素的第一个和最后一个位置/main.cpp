@@ -32,6 +32,35 @@
 using namespace std;
 
 class Solution {
+private:
+    int core_index(vector<int> nums, int target, bool isLeft) {
+        int left = 0, right = (int)nums.size(), mid = 0;
+        while (left < right) {
+            mid = (left + right) >> 1;
+            if (nums[mid] > target || (isLeft && target == nums[mid])) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        vector<int> res(2, -1);
+        int leftIdx = core_index(nums, target, true);
+        if (leftIdx == nums.size() || nums[leftIdx] != target) {
+            return res;
+        }
+        
+        res[0] = leftIdx;
+        res[1] = core_index(nums, target, false) - 1;
+        
+        return res;
+    }
+};
+
+class Solution1 {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
         vector<int> res(2, -1);
