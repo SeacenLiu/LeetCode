@@ -29,6 +29,7 @@
 
 #include <iostream>
 #include <vector>
+#include <stack>
 using namespace std;
 
 struct TreeNode {
@@ -62,6 +63,28 @@ public:
 };
 
 class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> res;
+        stack<TreeNode*> stack;
+        TreeNode *cur = root;
+        while (cur != nullptr || !stack.empty()) {
+            // 优先最左子树
+            while (cur != nullptr) {
+                stack.push(cur);
+                cur = cur->left;
+            }
+            cur = stack.top();
+            stack.pop();
+            res.push_back(cur->val);
+            // 输出根节点后，继续找右子树
+            cur = cur->right;
+        }
+        return res;
+    }
+};
+
+class Solution1 {
 private:
     vector<int> res;
     void core(TreeNode* node) {
