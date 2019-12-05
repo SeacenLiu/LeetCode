@@ -147,6 +147,7 @@
 		14F7C8C72113E83800CDE135 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F7C8C62113E83800CDE135 /* main.cpp */; };
 		14F7C8D22113F2E800CDE135 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F7C8D12113F2E800CDE135 /* main.cpp */; };
 		14FAE04822421C40004662B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE04722421C40004662B2 /* main.cpp */; };
+		C35EEED72392B175008475B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35EEED62392B175008475B3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1392,6 +1393,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C35EEED22392B174008475B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -1672,6 +1682,8 @@
 		14F7C8D12113F2E800CDE135 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14FAE04522421C40004662B2 /* 213. 打家劫舍 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "213. 打家劫舍 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAE04722421C40004662B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C35EEED42392B174008475B3 /* 94. 二叉树的中序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "94. 二叉树的中序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35EEED62392B175008475B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2641,6 +2653,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C35EEED12392B174008475B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -3257,6 +3276,7 @@
 				1475DB8F23861C9D00AAA12B /* 31. 下一个排列 */,
 				1475DB9A238A7A4600AAA12B /* 34. 在排序数组中查找元素的第一个和最后一个位置 */,
 				1475DBA5238BBC0800AAA12B /* 49. 字母异位词分组 */,
+				C35EEED52392B175008475B3 /* 94. 二叉树的中序遍历 */,
 				14773BCE20934638006242C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -3402,6 +3422,7 @@
 				1475DB8E23861C9D00AAA12B /* 31. 下一个排列 */,
 				1475DB99238A7A4600AAA12B /* 34. 在排序数组中查找元素的第一个和最后一个位置 */,
 				1475DBA4238BBC0800AAA12B /* 49. 字母异位词分组 */,
+				C35EEED42392B174008475B3 /* 94. 二叉树的中序遍历 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4053,6 +4074,14 @@
 				14FAE04722421C40004662B2 /* main.cpp */,
 			);
 			path = "213. 打家劫舍 II";
+			sourceTree = "<group>";
+		};
+		C35EEED52392B175008475B3 /* 94. 二叉树的中序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				C35EEED62392B175008475B3 /* main.cpp */,
+			);
+			path = "94. 二叉树的中序遍历";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -6404,6 +6433,23 @@
 			productReference = 14FAE04522421C40004662B2 /* 213. 打家劫舍 II */;
 			productType = "com.apple.product-type.tool";
 		};
+		C35EEED32392B174008475B3 /* 94. 二叉树的中序遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35EEEDA2392B175008475B3 /* Build configuration list for PBXNativeTarget "94. 二叉树的中序遍历" */;
+			buildPhases = (
+				C35EEED02392B174008475B3 /* Sources */,
+				C35EEED12392B174008475B3 /* Frameworks */,
+				C35EEED22392B174008475B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "94. 二叉树的中序遍历";
+			productName = "94. 二叉树的中序遍历";
+			productReference = C35EEED42392B174008475B3 /* 94. 二叉树的中序遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -6965,6 +7011,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					C35EEED32392B174008475B3 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 14773BC820934638006242C6 /* Build configuration list for PBXProject "LeetCode" */;
@@ -7117,6 +7167,7 @@
 				1475DB8D23861C9D00AAA12B /* 31. 下一个排列 */,
 				1475DB98238A7A4600AAA12B /* 34. 在排序数组中查找元素的第一个和最后一个位置 */,
 				1475DBA3238BBC0800AAA12B /* 49. 字母异位词分组 */,
+				C35EEED32392B174008475B3 /* 94. 二叉树的中序遍历 */,
 			);
 		};
 /* End PBXProject section */
@@ -8225,6 +8276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FAE04822421C40004662B2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35EEED02392B174008475B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35EEED72392B175008475B3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11831,6 +11890,29 @@
 			};
 			name = Release;
 		};
+		C35EEED82392B175008475B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C35EEED92392B175008475B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -13081,6 +13163,15 @@
 			buildConfigurations = (
 				14FAE04922421C40004662B2 /* Debug */,
 				14FAE04A22421C40004662B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35EEEDA2392B175008475B3 /* Build configuration list for PBXNativeTarget "94. 二叉树的中序遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35EEED82392B175008475B3 /* Debug */,
+				C35EEED92392B175008475B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
